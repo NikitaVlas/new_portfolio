@@ -1,12 +1,14 @@
-import './App.css'
+import React from 'react';
+import PageLayout from "../components/layouts/PageLayout.tsx";
 
-function App() {
+const App = () => {
+    return (
+        <html lang="en">
+            <body>
+                <PageLayout/>
+            </body>
+        </html>
+    );
+};
 
-  return (
-    <>
-      <h1>portfolio</h1>
-    </>
-  )
-}
-
-export default App
+export default App;
