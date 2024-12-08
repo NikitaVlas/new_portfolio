@@ -16,3 +16,15 @@
     margin-right: 20px;
   }
 }
+
+.quote {
+  margin-top: auto;
+
+  &__container {
+    padding-top: 28px !important;
+    padding-bottom: 28px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
