@@ -15,3 +15,8 @@ body {
 h1 {
     font-size: 44px;
 }
+
+p {
+    font-size: 16px;
+    color: #ABB2BF;
+}
