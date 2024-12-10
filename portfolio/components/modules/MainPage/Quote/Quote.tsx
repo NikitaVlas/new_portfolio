@@ -1,5 +1,4 @@
 import styles from "../../../../styles/main-page/index.module.scss"
-import BlockTitle from "../../../elements/BlockTitle/BlockTitle.tsx";
 
 const Quote = () => {
     return (
