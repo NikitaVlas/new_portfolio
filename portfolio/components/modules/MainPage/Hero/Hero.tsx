@@ -15,7 +15,6 @@ const Hero = () => {
                         <img src="../../../../public/img/Rectangle.svg" alt=""/>
                         <span>Currently working on Portfolio</span>
                     </div>
-
                 </div>
             </div>
         </section>

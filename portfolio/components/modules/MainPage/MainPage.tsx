@@ -1,6 +1,7 @@
 import Hero from "./Hero/Hero.tsx";
 import Quote from "./Quote/Quote.tsx";
 import About from "./About/About.tsx";
+import Contacts from "./Contacts/Contacts.tsx";
 
 const MainPage = () => {
     return (
@@ -8,6 +9,7 @@ const MainPage = () => {
             <Hero/>
             <Quote/>
             <About />
+            <Contacts />
         </section>
     );
 };
