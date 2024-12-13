@@ -1,0 +1,24 @@
+.projects {
+  padding-top: 28px !important;
+  padding-bottom: 28px !important;
+
+  &__container {
+    padding-top: 28px !important;
+    padding-bottom: 28px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.projectCart {
+  box-sizing: border-box;
+  max-width: 350px;
+  margin-right: 16px;
+  border: 1px solid white;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
