@@ -1,4 +1,5 @@
 import styles from "../../../../styles/projects/index.module.scss";
+import Button from "../../../elements/Button/Button.tsx";
 
 type ProjectCartProps = {
     tex: string
@@ -13,9 +14,9 @@ const ProjectCart = ({tex, title, description}: ProjectCartProps) => {
             <p>{tex}</p>
             <h3>{title}</h3>
             <p>{description}</p>
-            <div>
-                <button>Live</button>
-                <button>GitHub</button>
+            <div className={styles.projectCart__container_button}>
+                <Button title={"Live"}/>
+                <Button title={"GitHub"}/>
             </div>
         </div>
     );

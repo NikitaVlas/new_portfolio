@@ -1,5 +1,6 @@
 import styles from "../../../../styles/about/index.module.scss";
 import BlockTitle from "../../../elements/BlockTitle/BlockTitle";
+import Button from "../../../elements/Button/Button.tsx";
 
 const About = () => {
     return (
@@ -14,7 +15,7 @@ const About = () => {
                         Transforming my creativity and knowledge into a websites has been my passion for over a year. I
                         have been helping various clients to establish their presence online. I always strive to learn
                         about the newest technologies and frameworks.</p>
-                    <button>Read more</button>
+                    <Button title={"Read more"} />
                 </div>
                 <div className={styles.img}>
                     <img src="../../../../public/img/photoabout.png" alt=""/>
