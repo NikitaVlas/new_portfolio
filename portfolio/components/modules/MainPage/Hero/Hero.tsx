@@ -1,4 +1,5 @@
 import styles from "../../../../styles/main-page/index.module.scss"
+import Button from "../../../elements/Button/Button.tsx";
 
 const Hero = () => {
     return (
@@ -7,7 +8,7 @@ const Hero = () => {
                 <div className={styles.hero__description}>
                     <h1>Nikita is a web designer and front-end developer</h1>
                     <span>He crafts responsive websites where technologies meet creativity</span>
-                    <button>Contact me</button>
+                    <Button title={"Contact me"}/>
                 </div>
                 <div className="img">
                     <img src="../../../../public/img/photoHero.png" alt=""/>
