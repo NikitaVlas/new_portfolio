@@ -11,6 +11,7 @@ import "./globalStyles/header.css"
 import "./globalStyles/footer.css"
 import Works from "../public/pages/works/works.tsx";
 import PageLayout from "../components/layouts/PageLayout.tsx";
+import AboutMe from "../public/pages/about/about.tsx";
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')!).render(
                 <Route path="/" element={<App/>}>
                     <Route index element={<PageLayout />} />
                     <Route path="/pages/works" element={<Works/>}/>
+                    <Route path="/pages/about" element={<AboutMe/>}/>
                 </Route>
             </Routes>
         </BrowserRouter>

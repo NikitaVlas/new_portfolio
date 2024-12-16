@@ -9,8 +9,8 @@ const Header = () => {
                     <nav className="header__menu__link">
                         <Link to="/">home</Link>
                         <Link to="/pages/works">works</Link>
-                        <Link to="/about-me">about-me</Link>
-                        <Link to="/contacts">contacts</Link>
+                        <Link to="/pages/about">about-me</Link>
+                        <Link to="/pages/contacts">contacts</Link>
                     </nav>
                     <div>Lang</div>
                 </div>
