@@ -1,11 +1,13 @@
-import PageLayout from "../components/layouts/PageLayout.tsx";
+import Header from "../components/modules/Header/Header.tsx";
+import Footer from "../components/modules/Footer/Footer.tsx";
+import {Outlet} from "react-router-dom";
 
 const App = () => {
     return (
         <html lang="en">
-            <body>
-                <PageLayout/>
-            </body>
+        <Header/>
+        <Outlet/>
+        <Footer/>
         </html>
     );
 };
