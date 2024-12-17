@@ -15,7 +15,7 @@ const About = () => {
                         Transforming my creativity and knowledge into a websites has been my passion for over a year. I
                         have been helping various clients to establish their presence online. I always strive to learn
                         about the newest technologies and frameworks.</p>
-                    <Button title={"Read more"} />
+                    <Button title={"Read more"} to={"/pages/about"}/>
                 </div>
                 <div className={styles.img}>
                     <img src="../../../../public/img/photoabout.png" alt=""/>

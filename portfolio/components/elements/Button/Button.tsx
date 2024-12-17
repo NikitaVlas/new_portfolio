@@ -1,10 +1,11 @@
 import {ButtonProps} from "../../../types/elements";
+import {Link} from "react-router-dom";
 
-const Button = ({title, onClick}: ButtonProps) => {
+const Button = ({title, to}: ButtonProps) => {
     return (
-        <div>
-            <a href="" onClick={onClick}>{title}</a>
-        </div>
+        <nav className="header__menu__link">
+            <Link to={to}>{title}</Link>
+        </nav>
     );
 };
 
