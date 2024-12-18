@@ -15,7 +15,7 @@ const ProjectCart = ({tex, title, description}: ProjectCartProps) => {
             <h3>{title}</h3>
             <p>{description}</p>
             <div className={styles.projectCart__container_button}>
-                <Button title={"Live"}/>
+                <Button title={"Live"} to={"#"}/>
                 <Button title={"GitHub"}/>
             </div>
         </div>

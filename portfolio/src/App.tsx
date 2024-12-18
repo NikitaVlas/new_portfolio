@@ -4,11 +4,11 @@ import {Outlet} from "react-router-dom";
 
 const App = () => {
     return (
-        <html lang="en">
-        <Header/>
-        <Outlet/>
-        <Footer/>
-        </html>
+        <div className="App">
+            <Header/>
+            <Outlet/>
+            <Footer/>
+        </div>
     );
 };
 

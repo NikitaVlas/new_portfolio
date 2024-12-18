@@ -7,14 +7,14 @@ import Skills from "./Skills/Skills.tsx";
 
 const MainPage = () => {
     return (
-        <section className="container">
+        <div className="container">
             <Hero/>
             <Quote/>
             <Projects />
             <Skills/>
             <About />
             <Contacts />
-        </section>
+        </div>
     );
 };
 
