@@ -10,5 +10,9 @@ export const theme = {
         h3: "30px",
         h4: "24px",
         p: "16px",
+    },
+    hoverColor: {
+        noHover: "#194D32",
+        hover: "#39D353"
     }
 }
