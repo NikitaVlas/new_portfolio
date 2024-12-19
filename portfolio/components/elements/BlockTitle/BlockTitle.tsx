@@ -1,3 +1,5 @@
+import styled from "styled-components";
+import {theme} from "../../../styles/Theme.styled.tsx";
 
 
 type BlockTitleProps = {
@@ -5,11 +7,28 @@ type BlockTitleProps = {
 }
 const BlockTitle = ({text}: BlockTitleProps) => {
     return (
-        <div >
-            <h1 ><span >#</span>{text}</h1>
+        <BlockTitleStyle>
+            <h3><span>#</span>{text}</h3>
             <img src="../../../public/img/Line.svg" alt=""/>
-        </div>
+        </BlockTitleStyle>
     );
 };
+
+const BlockTitleStyle = styled.div`
+    display: flex;
+    
+    h3 {
+        font-size: ${theme.fontsize.h3};
+    }
+    
+    span {
+        padding-right: 3px;
+        color: ${theme.hoverColor.hover}
+    }
+    
+    img {
+        margin-left: 16px;
+    }
+`
 
 export default BlockTitle;
