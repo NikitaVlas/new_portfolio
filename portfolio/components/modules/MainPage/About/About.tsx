@@ -1,13 +1,13 @@
-import styles from "../../../../styles/about/index.module.scss";
+
 import BlockTitle from "../../../elements/BlockTitle/BlockTitle";
 import Button from "../../../elements/Button/Button.tsx";
 
 const About = () => {
     return (
-        <section className={styles.about}>
+        <section >
             <BlockTitle text={"about-me"}/>
-            <div className={`container ${styles.about__container}`}>
-                <div className={styles.description}>
+            <div >
+                <div>
                     <p>Hello, i’m Nikita!
                         <br/>
                         I’m a self-taught front-end developer based in Cologne, Germany. I can develop responsive
@@ -17,7 +17,7 @@ const About = () => {
                         about the newest technologies and frameworks.</p>
                     <Button title={"Read more"} to={"/pages/about"}/>
                 </div>
-                <div className={styles.img}>
+                <div >
                     <img src="../../../../public/img/photoabout.png" alt=""/>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-import styles from "../../../../styles/skills/index.module.scss";
+
 
 type SKillProps = {
     skill: string
@@ -7,7 +7,7 @@ type SKillProps = {
 
 const Skill = ({skill, title}: SKillProps) => {
     return (
-        <div className={styles.skill}>
+        <div >
             <h3>{title}</h3>
             <p>{skill}</p>
         </div>

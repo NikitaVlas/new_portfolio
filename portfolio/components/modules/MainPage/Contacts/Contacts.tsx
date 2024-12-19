@@ -1,18 +1,18 @@
-import styles from "../../../../styles/contacts/index.module.scss";
+
 import BlockTitle from "../../../elements/BlockTitle/BlockTitle";
 
 const Contacts = () => {
     return (
-        <section className={styles.contacts}>
+        <section>
             <BlockTitle text={"contacts"}/>
-            <div className={`container ${styles.contacts__container}`}>
-                <div className={styles.description}>
+            <div >
+                <div >
                     <p>I’m interested in freelance opportunities. However, if you have other request or question, don’t
                         hesitate to contact me</p>
                 </div>
-                <div className={styles.message}>
+                <div >
                     <span>Message me here</span>
-                    <div className={styles.contactGithub}>
+                    <div >
                         <img src="../../../public/img/Github.svg" alt=""/>
                         <p>NikitaVlas</p>
                     </div>
