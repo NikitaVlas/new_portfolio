@@ -1,12 +1,16 @@
+import {FooterStyled} from "../../../src/globalStyles/footer/footer.styled.tsx";
+import {Link} from "react-router-dom";
+
 const Footer = () => {
     return (
-        <footer className="footer">
-            <div className="container footer__container">
-                <div className="footer__text">
-                    <span>Nikita</span>
-                    <span>Web designer and front-end developer</span>
+        <FooterStyled>
+            <img src="../../../public/img/LineFooter.svg" alt=""/>
+            <div className="footerContainer">
+                <div className="footerLeft">
+                    <Link className="icon" to="/">Nikita</Link>
+                    <span>nikistosov@gmail.com</span>
                 </div>
-                <div className="footer__media">
+                <div className="footerRight">
                     <div>
                         <span>Media</span>
                     </div>
@@ -16,7 +20,10 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </footer>
+            <div className="copyright">
+                <span>© Copyright 2024. Made by Nikita</span>
+            </div>
+        </FooterStyled>
     );
 };
 

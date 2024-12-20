@@ -4,7 +4,7 @@ import {theme} from "../../../styles/Theme.styled.tsx";
 export const HeaderContainer = styled.header`
     display: flex;
     justify-content: space-between;
-    padding: 20px 0 20px 0;
+    padding: 32px 0 32px 0;
     
     .icon {
         color: ${theme.colors.primary};

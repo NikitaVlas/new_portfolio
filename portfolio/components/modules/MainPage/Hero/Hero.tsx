@@ -5,8 +5,8 @@ const Hero = () => {
     return (
         <HeroStyled>
             <div className="heroBlock">
-                <h1>Nikita is a <span>front-end</span> developer</h1>
-                <span>He crafts responsive websites where technologies meet creativity</span>
+                <h1>I'm a <span>front-end</span> developer</h1>
+                <span>I crafts responsive websites where technologies meet creativity</span>
                 <div>
                     <LinkButton title={"Contact me!"} to={"/pages/contacts"}/>
                 </div>
