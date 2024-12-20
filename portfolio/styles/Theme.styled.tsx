@@ -6,7 +6,7 @@ export const theme = {
         backgroundColorSecondary: "#0D1117"
     },
     fontsize: {
-        h1: "36px",
+        h1: "40px",
         h3: "30px",
         h4: "24px",
         p: "16px",
