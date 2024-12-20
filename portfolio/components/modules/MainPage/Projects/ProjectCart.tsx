@@ -1,4 +1,4 @@
-import Button from "../../../elements/Button/Button.tsx";
+import LinkButton from "../../../elements/LinkButton/LinkButton.tsx";
 
 type ProjectCartProps = {
     tex: string
@@ -14,8 +14,8 @@ const ProjectCart = ({tex, title, description}: ProjectCartProps) => {
             <h3>{title}</h3>
             <p>{description}</p>
             <div>
-                <Button title={"Live"} to={"#"}/>
-                <Button title={"GitHub"}/>
+                <LinkButton title={"Live"} to={"#"}/>
+                <LinkButton title={"GitHub"}/>
             </div>
         </div>
     );
