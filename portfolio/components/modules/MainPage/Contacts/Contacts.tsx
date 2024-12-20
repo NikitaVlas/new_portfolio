@@ -1,29 +1,37 @@
+    import BlockTitle from "../../../elements/BlockTitle/BlockTitle";
+    import {ContactsStyled} from "../../../../src/globalStyles/contacts/contacts.styled.tsx";
 
-import BlockTitle from "../../../elements/BlockTitle/BlockTitle";
-
-const Contacts = () => {
-    return (
-        <section>
-            <BlockTitle text={"contacts"}/>
-            <div >
-                <div >
-                    <p>I’m interested in freelance opportunities. However, if you have other request or question, don’t
-                        hesitate to contact me</p>
-                </div>
-                <div >
-                    <span>Message me here</span>
-                    <div >
-                        <img src="../../../public/img/Github.svg" alt=""/>
-                        <p>NikitaVlas</p>
+    const Contacts = () => {
+        return (
+            <ContactsStyled>
+                <BlockTitle text={"contacts"}/>
+                <div className="contactsContainer">
+                    <div className="contactsDescription">
+                        <p>I’m interested in freelance opportunities. However, if you have other request or question, don’t
+                            hesitate to contact me</p>
                     </div>
-
-                    <img src="../../../public/img/Linkedin.svg" alt=""/>
-                    <img src="../../../public/img/Email.svg" alt=""/>
-                    <img src="../../../public/img/Telegram.svg" alt=""/>
+                    <div className="contactsMessage">
+                        <span>Message me here</span>
+                        <div className="contactMethod">
+                            <img src="../../../public/img/Github.svg" alt=""/>
+                            <a>NikitaVlas</a>
+                        </div>
+                        <div className="contactMethod">
+                            <img src="../../../public/img/Linkedin.svg" alt=""/>
+                            <a>nikita-vlasov</a>
+                        </div>
+                        <div className="contactMethod">
+                            <img src="../../../public/img/Email.svg" alt=""/>
+                            <a>nikistosov@gmail.com</a>
+                        </div>
+                        <div className="contactMethod">
+                            <img src="../../../public/img/Telegram.svg" alt=""/>
+                            <a>@sibjpeg</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-    );
-};
+            </ContactsStyled>
+        );
+    };
 
-export default Contacts;
+    export default Contacts;
