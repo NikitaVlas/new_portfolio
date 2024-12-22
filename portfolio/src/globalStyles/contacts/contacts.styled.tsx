@@ -2,7 +2,6 @@ import styled from "styled-components";
 import {theme} from "../../../styles/Theme.styled.tsx";
 
 export const ContactsStyled = styled.div`
-    
     .contactsContainer {
         display: flex;
         justify-content: space-between;
