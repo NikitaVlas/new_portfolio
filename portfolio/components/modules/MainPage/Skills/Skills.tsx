@@ -1,18 +1,22 @@
 import BlockTitle from "../../../elements/BlockTitle/BlockTitle";
 import Skill from "./Skill.tsx";
+import {SkillsStyled} from "../../../../src/globalStyles/skills/skills.styled.tsx";
 
 
 const Skills = () => {
     return (
-        <section>
+        <SkillsStyled>
             <BlockTitle text={"skills"}/>
-            <div>
+            <div className="container">
                 <div></div>
-                <Skill title={"Languages"} skill={"TypeScript, JS"}/>
-                <Skill title={"Languages"} skill={"TypeScript, JS"}/>
-                <Skill title={"Languages"} skill={"TypeScript, JS"}/>
+                <div className="skillsContainer">
+                    <Skill title={"Languages"} skill={"TypeScript, JS"}/>
+                    <Skill title={"Languages"} skill={"TypeScript, JS"}/>
+                    <Skill title={"Languages"} skill={"TypeScript, JS"}/>
+                </div>
             </div>
-        </section>
+
+        </SkillsStyled>
     );
 };
 
