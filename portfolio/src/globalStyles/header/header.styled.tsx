@@ -11,20 +11,19 @@ export const HeaderContainer = styled.header`
     }
     
     .rightContainer {
-        display: flex;
-        
         .linkContainer {
             display: flex;
             
             .pair {
                 span {
+                    margin-left: 32px;
                     margin-right: 2px;
                     color: ${theme.hoverColor.noHover};
                     transition: color 0.3s ease;
                 }
                 
                 a {
-                    margin-right: 32px;
+
                     color: ${theme.colors.secondary};
                     transition: color 0.3s ease;
                 }
@@ -37,7 +36,6 @@ export const HeaderContainer = styled.header`
                     color: ${theme.colors.primary};
                 }
             }
-
         }
     }
 `

@@ -23,7 +23,6 @@ const Header = () => {
                         <span>#</span><Link to="/pages/contacts">{translations[lang].header.contacts}</Link>
                     </div>
                 </nav>
-                <span>Lang</span>
             </div>
         </HeaderContainer>
     );
