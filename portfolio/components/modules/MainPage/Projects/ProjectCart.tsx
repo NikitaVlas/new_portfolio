@@ -1,4 +1,5 @@
 import LinkButton from "../../../elements/LinkButton/LinkButton.tsx";
+import {ProjectCartStyled} from "../../../../src/globalStyles/projects/projectCart.styled.tsx";
 
 type ProjectCartProps = {
     tex: string
@@ -8,16 +9,18 @@ type ProjectCartProps = {
 
 const ProjectCart = ({tex, title, description}: ProjectCartProps) => {
     return (
-        <div>
+        <ProjectCartStyled>
             <img src="../../../public/img/project1.png" alt=""/>
-            <p>{tex}</p>
-            <h3>{title}</h3>
-            <p>{description}</p>
-            <div>
-                <LinkButton title={"Live"} to={"#"}/>
-                <LinkButton title={"GitHub"}/>
+            <div className="text">
+                <p className="stack">{tex}</p>
+                <h4>{title}</h4>
+                <p>{description}</p>
+                <div className="containerButton">
+                    <LinkButton title={"Live"} to={"#"}/>
+                    <LinkButton title={"GitHub"}/>
+                </div>
             </div>
-        </div>
+        </ProjectCartStyled>
     );
 };
 
