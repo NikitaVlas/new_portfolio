@@ -5,6 +5,12 @@ export const SkillsStyled = styled.div`
         display: flex;
         justify-content: space-between;
         
+        .elements {
+            .doubleSquad::before {
+                display: inline-block;
+            }
+        }
+        
         .skillsContainer {
             display: flex;
         }

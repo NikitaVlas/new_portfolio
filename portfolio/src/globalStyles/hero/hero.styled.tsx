@@ -23,4 +23,13 @@ export const HeroStyled = styled.div `
     .heroBlock {
         
     }
+    
+    .elements {
+        .doubleSquad::before {
+            display: block;
+            position: absolute;
+            top: 212px;
+            left: 706px;
+        }
+    }
 `

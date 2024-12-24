@@ -8,7 +8,9 @@ const Skills = () => {
         <SkillsStyled>
             <BlockTitle text={"skills"}/>
             <div className="container">
-                <div></div>
+                <div className="elements">
+                    <img className="doubleSquad" src="../../../../public/img/doubleSquad.svg" alt=""/>
+                </div>
                 <div className="skillsContainer">
                     <Skill title={"Languages"} skill={"TypeScript, JS"}/>
                     <Skill title={"Languages"} skill={"TypeScript, JS"}/>
