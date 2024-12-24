@@ -2,14 +2,33 @@ import Header from "../components/modules/Header/Header.tsx";
 import Footer from "../components/modules/Footer/Footer.tsx";
 import {Outlet} from "react-router-dom";
 import styled from "styled-components";
+import {setLang} from "../context/lang.ts";
+import {AllowedLangs} from "../constants/lang.ts";
 
 const App = () => {
+    const handleSwitchLang = (lang:string) =>{
+        setLang(lang as AllowedLangs)
+        localStorage.setItem("lang", JSON.stringify(lang));
+    }
+
+    const handleSwitchLangToEn = () => handleSwitchLang("en")
+    const handleSwitchLangToDe = () => handleSwitchLang("de")
+    const handleSwitchLangToRu = () => handleSwitchLang("ru")
+
     return (
-        <Container>
-            <Header/>
-            <Outlet/>
-            <Footer/>
-        </Container>
+        <div>
+            <div>
+                <button onClick={handleSwitchLangToEn}>EN</button>
+                <button onClick={handleSwitchLangToDe}>DE</button>
+                <button onClick={handleSwitchLangToRu}>RU</button>
+            </div>
+            <Container>
+                <Header/>
+                <Outlet/>
+                <Footer/>
+            </Container>
+        </div>
+
     );
 };
 

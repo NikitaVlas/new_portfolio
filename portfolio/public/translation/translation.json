@@ -1,0 +1,26 @@
+{
+  "en":{
+    "header": {
+      "home": "home",
+      "works": "works",
+      "about": "about-me",
+      "contacts": "contacts"
+    }
+  },
+  "de":{
+    "header": {
+      "home": "Hous",
+      "works": "Projekte",
+      "about": "Über mich",
+      "contacts": "Kontakte"
+    }
+  },
+  "ru":{
+    "header": {
+      "home": "главная",
+      "works": "проекты",
+      "about": "обо мне",
+      "contacts": "контакты"
+    }
+  }
+}
