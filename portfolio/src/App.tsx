@@ -4,6 +4,7 @@ import {Outlet} from "react-router-dom";
 import styled from "styled-components";
 import {setLang} from "../context/lang.ts";
 import {AllowedLangs} from "../constants/lang.ts";
+import Button from "../components/elements/Button/Button.tsx";
 
 const App = () => {
     const handleSwitchLang = (lang:string) =>{
@@ -16,21 +17,30 @@ const App = () => {
     const handleSwitchLangToRu = () => handleSwitchLang("ru")
 
     return (
-        <div>
-            <div>
-                <button onClick={handleSwitchLangToEn}>EN</button>
-                <button onClick={handleSwitchLangToDe}>DE</button>
-                <button onClick={handleSwitchLangToRu}>RU</button>
-            </div>
+        <AppStyled>
+            <ExternalContainer>
+                <Button onClick={handleSwitchLangToEn} title={"EN"}/>
+                <Button onClick={handleSwitchLangToDe} title={"DE"}/>
+                <Button onClick={handleSwitchLangToRu} title={"RU"}/>
+            </ExternalContainer>
             <Container>
                 <Header/>
                 <Outlet/>
                 <Footer/>
             </Container>
-        </div>
+        </AppStyled>
 
     );
 };
+
+export const AppStyled = styled.div`
+    display: flex;
+`
+
+export const ExternalContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+`
 
 export const Container = styled.div`
     max-width: 1024px;
