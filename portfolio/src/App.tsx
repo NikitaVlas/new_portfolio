@@ -19,9 +19,16 @@ const App = () => {
     return (
         <AppStyled>
             <ExternalContainer>
-                <Button onClick={handleSwitchLangToEn} title={"EN"}/>
-                <Button onClick={handleSwitchLangToDe} title={"DE"}/>
-                <Button onClick={handleSwitchLangToRu} title={"RU"}/>
+                <ContactExternal>
+                    <img src="../public/img/Linevert.svg" alt=""/>
+                    <img src="../public/img/Github.svg" alt=""/>
+                    <img src="../public/img/Linkedin.svg" alt=""/>
+                </ContactExternal>
+                <ButtonExternal>
+                    <Button onClick={handleSwitchLangToEn} title={"en"}/>
+                    <Button onClick={handleSwitchLangToDe} title={"de"}/>
+                    <Button onClick={handleSwitchLangToRu} title={"ru"}/>
+                </ButtonExternal>
             </ExternalContainer>
             <Container>
                 <Header/>
@@ -39,7 +46,24 @@ export const AppStyled = styled.div`
 
 export const ExternalContainer = styled.div`
     display: flex;
+`
+
+export const ButtonExternal = styled.div`
+    display: flex;
     flex-direction: column;
+    margin-left: 25px;
+    padding: 32px 0 32px 0;
+`
+
+export const ContactExternal = styled.div`
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    img {
+        margin-bottom: 8px;
+    }
 `
 
 export const Container = styled.div`
