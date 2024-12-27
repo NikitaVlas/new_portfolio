@@ -3,7 +3,11 @@ import BlockTitle from "../../../elements/BlockTitle/BlockTitle";
 import LinkButton from "../../../elements/LinkButton/LinkButton.tsx";
 import {AboutStyled} from "../../../../src/globalStyles/about/about.staled.tsx";
 
-const About = () => {
+type AboutProps = {
+    button: boolean
+}
+
+const About = ({button}: AboutProps) => {
     return (
         <AboutStyled>
             <BlockTitle text={"about-me"}/>
@@ -17,7 +21,7 @@ const About = () => {
                         Transforming my creativity and knowledge into a websites has been my passion for over a year. I
                         have been helping various clients to establish their presence online. I always strive to learn
                         about the newest technologies and frameworks.</p>
-                    <LinkButton title={"Read more"} to={"/pages/about"}/>
+                    {button ? <LinkButton title={"Read more"} to={"/pages/about"}/> : ""}
                 </div>
                 <div >
                     <img src="../../../../public/img/photoabout.png" alt=""/>

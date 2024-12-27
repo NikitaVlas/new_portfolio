@@ -12,7 +12,7 @@ const MainPage = () => {
             <Quote/>
             <Projects />
             <Skills/>
-            <About />
+            <About button={true}/>
             <Contacts />
         </div>
     );

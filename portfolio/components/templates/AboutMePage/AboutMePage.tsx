@@ -1,10 +1,8 @@
-
+import About from "../../modules/MainPage/About/About.tsx";
 
 const AboutMePage = () => {
     return (
-        <div>
-            <h1>Abot me</h1>
-        </div>
+        <About button={false}/>
     );
 };
 
