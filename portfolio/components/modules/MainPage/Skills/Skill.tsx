@@ -5,20 +5,27 @@ import {theme} from "../../../../styles/Theme.styled.tsx";
 type SKillProps = {
     skill: string
     title: string
+    block?: boolean
 }
 
-const Skill = ({skill, title}: SKillProps) => {
-    return (
-        <SkillStyled>
-            <p className="title">{title}</p>
-            <p>{skill}</p>
-        </SkillStyled>
-    );
-};
+const Skill = ({skill, title, block}: SKillProps) => {
+        return (
+            <div>
+
+                    < SkillStyled block={block}>
+                        < p className="title">{title}</p>
+                        <p>{skill}</p>
+                    </SkillStyled>
+
+            </div>
+
+        );
+    }
+;
 
 const SkillStyled = styled.div`
     border: 1px solid ${theme.colors.secondary};
-    margin-left: 16px;
+    margin-left: ${({ block }) => (block ? "16px" : "0")};
 
 
     .title {

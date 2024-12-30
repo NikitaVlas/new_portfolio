@@ -11,7 +11,7 @@ const MainPage = () => {
             <Hero/>
             <Quote/>
             <Projects />
-            <Skills/>
+            <Skills block={true}/>
             <About button={true}/>
             <Contacts />
         </div>

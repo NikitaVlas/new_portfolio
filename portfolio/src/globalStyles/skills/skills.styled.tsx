@@ -15,5 +15,12 @@ export const SkillsStyled = styled.div`
             display: flex;
         }
     }
+    
+    .containerAboutPage {
+        .skillsContainer {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
 
 `
