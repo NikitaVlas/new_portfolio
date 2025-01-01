@@ -1,7 +1,10 @@
+import BlockTitle from "../../elements/BlockTitle/BlockTitle.tsx";
+
 const WorksPage = () => {
     return (
         <div>
-            <h1>Rabota!!!</h1>
+            <BlockTitle text={"projects"}/>
+
         </div>
     );
 };
