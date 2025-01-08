@@ -8,6 +8,6 @@ export const ProjectsStyled = styled.div`
     }
     
     .projectsBody {
-        display: flex;
+        //display: flex;
     }
 `
