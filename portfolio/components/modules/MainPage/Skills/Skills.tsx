@@ -4,12 +4,14 @@ import {SkillsStyled} from "../../../../src/globalStyles/skills/skills.styled.ts
 
 type SkillsProps = {
     block: boolean
+    span: string
+    img: boolean
 }
 
-const Skills = ({block}: SkillsProps) => {
+const Skills = ({block, span, img}: SkillsProps) => {
     return (
         <SkillsStyled>
-            <BlockTitle text={"skills"}/>
+            <BlockTitle text={"skills"} span={span} img={img}/>
             <div className={block ? "container" : "containerAboutPage"}>
                 {block ? <div className="elements">
                     <img className="doubleSquad" src="../../../../public/img/doubleSquad.svg" alt=""/>

@@ -5,7 +5,7 @@ import BlockTitle from "../../../elements/BlockTitle/BlockTitle.tsx";
 const MyFunFacts = () => {
     return (
         <MyFunFactsStyled>
-            <BlockTitle text={"my-fun-facts"}/>
+            <BlockTitle text={"my-fun-facts"} span={"#"} img={false}/>
             <div className="containerMyFunFacts">
                 <div>
                     <Facts text={"I was in Russia, Germany, Italy, Spain, Belgium, Netherlands and France"}/>

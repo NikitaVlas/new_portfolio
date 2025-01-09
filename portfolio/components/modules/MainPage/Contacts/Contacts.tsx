@@ -1,10 +1,15 @@
     import BlockTitle from "../../../elements/BlockTitle/BlockTitle";
     import {ContactsStyled} from "../../../../src/globalStyles/contacts/contacts.styled.tsx";
 
-    const Contacts = () => {
+    type ContactsProps = {
+        span: string
+        img: boolean
+    }
+
+    const Contacts = ({span, img}: ContactsProps) => {
         return (
             <ContactsStyled>
-                <BlockTitle text={"contacts"}/>
+                <BlockTitle text={"contacts"} span={span} img={img}/>
                 <div className="contactsContainer">
                     <div className="contactsDescription">
                         <p>I’m interested in freelance opportunities. However, if you have other request or question, don’t

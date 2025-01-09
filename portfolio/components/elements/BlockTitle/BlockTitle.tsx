@@ -4,12 +4,14 @@ import {theme} from "../../../styles/Theme.styled.tsx";
 
 type BlockTitleProps = {
     text: string
+    span: string
+    img: boolean
 }
-const BlockTitle = ({text}: BlockTitleProps) => {
+const BlockTitle = ({text, span, img}: BlockTitleProps) => {
     return (
         <BlockTitleStyle>
-            <h3><span>#</span>{text}</h3>
-            <img src="../../../public/img/Line.svg" alt=""/>
+            <h3><span>{span}</span>{text}</h3>
+            {img ? <img src="../../../public/img/Line.svg" alt=""/> : ""}
         </BlockTitleStyle>
     );
 };

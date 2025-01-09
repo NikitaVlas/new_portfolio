@@ -6,8 +6,8 @@ import MyFunFacts from "../../modules/SecondPages/MyFunFacts/MyFunFacts.tsx";
 const AboutMePage = () => {
     return (
         <div>
-            <About button={false}/>
-            <Skills block={false}/>
+            <About button={false} span={"/"} img={false}/>
+            <Skills block={false} span={"#"} img={false}/>
             <MyFunFacts/>
         </div>
     );

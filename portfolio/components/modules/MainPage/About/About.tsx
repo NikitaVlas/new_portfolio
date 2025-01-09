@@ -5,12 +5,14 @@ import {AboutStyled} from "../../../../src/globalStyles/about/about.staled.tsx";
 
 type AboutProps = {
     button: boolean
+    span: string
+    img: boolean
 }
 
-const About = ({button}: AboutProps) => {
+const About = ({button, span, img}: AboutProps) => {
     return (
         <AboutStyled>
-            <BlockTitle text={"about-me"}/>
+            <BlockTitle text={"about-me"} span={span} img={img}/>
             <div className="aboutContainer">
                 <div className="aboutDescription">
                     <p>Hello, i’m Nikita!

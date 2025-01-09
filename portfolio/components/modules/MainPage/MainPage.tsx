@@ -8,10 +8,10 @@ const MainPage = () => {
     return (
         <div className="container">
             <Hero/>
-            <Skills block={true}/>
-            <Projects />
-            <About button={true}/>
-            <Contacts />
+            <Skills block={true} span={"#"} img={true}/>
+            <Projects span={"#"} img={true}/>
+            <About button={true} span={"#"} img={true}/>
+            <Contacts span={"#"} img={true}/>
         </div>
     );
 };

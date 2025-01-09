@@ -3,8 +3,7 @@ import BlockTitle from "../../elements/BlockTitle/BlockTitle.tsx";
 const WorksPage = () => {
     return (
         <div>
-            <BlockTitle text={"projects"}/>
-
+            <BlockTitle text={"projects"} span={"/"} img={false}/>
         </div>
     );
 };

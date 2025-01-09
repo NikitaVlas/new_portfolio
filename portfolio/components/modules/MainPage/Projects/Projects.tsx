@@ -6,7 +6,12 @@ import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const Projects = () => {
+type ProjectsProps = {
+    span: string
+    img: boolean
+}
+
+const Projects = ({span, img}: ProjectsProps) => {
     const settings = {
         dots: false,
         infinite: true,
@@ -18,23 +23,19 @@ const Projects = () => {
     return (
         <ProjectsStyled>
             <div className="projectsHead">
-                <BlockTitle text={"projects"}/>
+                <BlockTitle text={"projects"} span={span} img={img}/>
                 <LinkButton title={"View all"} to="/pages/works"/>
             </div>
             <div className="image-slider-container">
                 <Slider  {...settings}>
-                    <div>
-                        <ProjectCart tex={"React, Node.js"} title={"ProtectX"} description={"Get answers to your kahoot quiz"}/>
-                    </div>
-                    <div>
-                        <ProjectCart tex={"NEOS CMS, PHP, MariaDB"} title={"ProtectX"} description={"Get answers to your kahoot quiz"}/>
-                    </div>
-                    <div>
-                        <ProjectCart tex={"NEOS CMS, PHP, MariaDB"} title={"ProtectX"} description={"Get answers to your kahoot quiz"}/>
-                    </div>
-                    <div>
-                        <ProjectCart tex={"NEOS CMS, PHP, MariaDB"} title={"ProtectX"} description={"Get answers to your kahoot quiz"}/>
-                    </div>
+                    <ProjectCart tex={"React, Node.js"} title={"ProtectX"}
+                                 description={"Get answers to your kahoot quiz"}/>
+                    <ProjectCart tex={"NEOS CMS, PHP, MariaDB"} title={"ProtectX"}
+                                 description={"Get answers to your kahoot quiz"}/>
+                    <ProjectCart tex={"NEOS CMS, PHP, MariaDB"} title={"ProtectX"}
+                                 description={"Get answers to your kahoot quiz"}/>
+                    <ProjectCart tex={"NEOS CMS, PHP, MariaDB"} title={"ProtectX"}
+                                 description={"Get answers to your kahoot quiz"}/>
                 </Slider>
             </div>
         </ProjectsStyled>
