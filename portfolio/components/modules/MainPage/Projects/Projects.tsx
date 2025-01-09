@@ -15,7 +15,7 @@ const Projects = ({span, img}: ProjectsProps) => {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 500,
+        speed: 1000,
         slidesToShow: 3,
         slidesToScroll: 1
     };

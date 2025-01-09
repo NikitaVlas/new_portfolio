@@ -19,7 +19,7 @@ const Skills = ({block, span, img}: SkillsProps) => {
                 <div className="skillsContainer">
                     <Skill block={block} title={"Languages"} skill={"JavaScript TypeScript Node.JS PHP Java"}/>
                     <Skill block={block} title={"Databases"} skill={"MariaDB MongoDB"}/>
-                    <Skill block={block} title={"Frameworks"} skill={"React Express.js Angular Fusion FLow SCSS MaterialUI Bootstrap"}/>
+                    <Skill block={block} title={"Libraries/Frameworks"} skill={"React Express.js Angular Fusion FLow SCSS MaterialUI Bootstrap"}/>
                     <Skill block={block} title={"Tools"} skill={"WebStorm VSCode Figma Git Postman Storybook"}/>
                     <Skill block={block} title={"Other"} skill={"HTML CSS REST NEOS CMS"}/>
                 </div>

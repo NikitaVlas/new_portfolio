@@ -11,12 +11,10 @@ type SKillProps = {
 const Skill = ({skill, title, block}: SKillProps) => {
         return (
             <div>
-
-                    < SkillStyled block={block}>
-                        < p className="title">{title}</p>
-                        <p>{skill}</p>
-                    </SkillStyled>
-
+                <SkillStyled block={block}>
+                    < p className="title">{title}</p>
+                    <p>{skill}</p>
+                </SkillStyled>
             </div>
 
         );
@@ -25,7 +23,7 @@ const Skill = ({skill, title, block}: SKillProps) => {
 
 const SkillStyled = styled.div`
     border: 1px solid ${theme.colors.secondary};
-    margin-left: ${({ block }) => (block ? "16px" : "0")};
+    margin-left: ${({block}) => (block ? "16px" : "0")};
 
 
     .title {
