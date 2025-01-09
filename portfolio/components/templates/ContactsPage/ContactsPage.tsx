@@ -1,7 +1,15 @@
+import BlockTitle from "../../elements/BlockTitle/BlockTitle.tsx";
+
 const ContactsPage = () => {
     return (
         <div>
-            <h1>Contacts</h1>
+            <BlockTitle text={"contacts"}/>
+            <form action="">
+                <input type="text"/>
+                <input type="email"/>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </form>
+            <BlockTitle text={"all-media"}/>
         </div>
     );
 };
