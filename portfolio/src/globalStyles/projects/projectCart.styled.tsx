@@ -5,15 +5,8 @@ import {theme} from "../../../styles/Theme.styled.tsx";
 export const ProjectCartStyled = styled.div`
     margin-right: 16px;
     border: 1px solid ${theme.colors.secondary};
-    width: 300px;
-    //height: 500px; 
-    //overflow: hidden;
+    width: 332px;
     
-    img {
-        max-width: 100%; 
-        max-height: 100%; 
-        //object-fit: cover;
-    }
 
 
     h4 {

@@ -6,8 +6,4 @@ export const ProjectsStyled = styled.div`
         display: flex;
         justify-content: space-between;
     }
-    
-    .projectsBody {
-        //display: flex;
-    }
 `
