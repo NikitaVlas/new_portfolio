@@ -14,11 +14,11 @@ export const SkillsStyled = styled.div`
                     position: absolute;
                     top: 620px;
                     left: 580px;
-                    width: 60px; /* Размер изображения */
+                    width: 60px; 
                     height: 60px;
                     background: url('../../../public/img/dotsSmall.svg') no-repeat center center;
-                    background-size: cover; /* Масштабирует второе изображение */
-                    z-index: 1; /* Поверх заднего изображения */
+                    background-size: cover;
+                    z-index: 1; 
                 }
 
                 &::after {
@@ -29,8 +29,8 @@ export const SkillsStyled = styled.div`
                     width: 50px;
                     height: 50px;
                     background: url('../../../public/img/Rectanglesmall.svg') no-repeat center center;
-                    background-size: cover; /* Масштабирует второе изображение */
-                    z-index: 1; /* Поверх заднего изображения */
+                    background-size: cover;
+                    z-index: 1; 
                 }
             }
 
@@ -39,11 +39,11 @@ export const SkillsStyled = styled.div`
                 position: absolute;
                 top: 700px;
                 left: 420px;
-                width: 120px; /* Размер изображения */
+                width: 120px; 
                 height: 120px;
                 background: url('../../../public/img/doubleSquad.svg') no-repeat center center;
-                background-size: cover; /* Масштабирует второе изображение */
-                z-index: 1; /* Поверх заднего изображения */
+                background-size: cover; 
+                z-index: 1; 
             }
             
             &::after {
@@ -54,8 +54,8 @@ export const SkillsStyled = styled.div`
                 width: 70px; 
                 height: 70px;
                 background: url('../../../public/img/Rectanglesmall.svg') no-repeat center center;
-                background-size: cover; /* Масштабирует второе изображение */
-                z-index: 1; /* Поверх заднего изображения */
+                background-size: cover; 
+                z-index: 1;
             }
         }
 
