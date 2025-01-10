@@ -14,7 +14,8 @@ const Skills = ({block, span, img}: SkillsProps) => {
             <BlockTitle text={"skills"} span={span} img={img}/>
             <div className={block ? "container" : "containerAboutPage"}>
                 {block ? <div className="elements">
-                    <img className="doubleSquad" src="../../../../public/img/doubleSquad.svg" alt=""/>
+                    <span className={"pseudo"}/>
+                    {/*<img className="doubleSquad" src="../../../../public/img/doubleSquad.svg" alt=""/>*/}
                 </div> : ""}
                 <div className="skillsContainer">
                     <Skill block={block} title={"Languages"} skill={"JavaScript TypeScript Node.JS PHP Java"}/>
