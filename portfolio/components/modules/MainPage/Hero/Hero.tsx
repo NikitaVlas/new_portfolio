@@ -10,11 +10,10 @@ const Hero = () => {
                 <div>
                     <LinkButton title={"Contact me!"} to={"/pages/contacts"}/>
                 </div>
-
             </div>
             <div className="elements">
-                <img className="doubleSquad" src="../../../../public/img/doubleSquad.svg" alt=""/>
-                <img src="../../../../public/img/photoHero.png" alt=""/>
+                {/*<img className="doubleSquad" src="../../../../public/img/doubleSquad.svg" alt=""/>*/}
+                <img className="mainIMG" src="../../../../public/img/photoHero.png" alt=""/>
                 <div>
                     <img src="../../../../public/img/Rectangle.svg" alt=""/>
                     <span>Currently working on Portfolio</span>
