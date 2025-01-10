@@ -23,8 +23,7 @@ const Skill = ({skill, title, block}: SKillProps) => {
 
 const SkillStyled = styled.div`
     border: 1px solid ${theme.colors.secondary};
-    margin-left: ${({block}) => (block ? "16px" : "0")};
-
+    margin-right: 16px;
 
     .title {
         margin: 0;
