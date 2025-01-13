@@ -3,7 +3,7 @@ export const theme = {
         primary: "#EBEBEB",
         secondary: "#ABB2BF",
         backgroundColorPrimary: "#0E1117",
-        backgroundColorSecondary: "#0D1117"
+        backgroundColorSecondary: "#11151C"
     },
     fontsize: {
         h1: "40px",

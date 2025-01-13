@@ -5,6 +5,7 @@ import styled from "styled-components";
 import {setLang} from "../context/lang.ts";
 import {AllowedLangs} from "../constants/lang.ts";
 import Button from "../components/elements/Button/Button.tsx";
+import {theme} from "../styles/Theme.styled.tsx";
 
 const App = () => {
     const handleSwitchLang = (lang:string) =>{
@@ -68,7 +69,7 @@ export const ContactExternal = styled.div`
 
 export const Container = styled.div`
     max-width: 1024px;
-    background-color: #1D2533;
+    background-color: ${theme.colors.backgroundColorSecondary};
     margin: 0 auto;
     padding: 0 15px;
 `
