@@ -17,6 +17,8 @@ const Footer = () => {
                     <div>
                         <img src="../../../public/img/Github.svg" alt=""/>
                         <img src="../../../public/img/Linkedin.svg" alt=""/>
+                        <img src="../../../public/img/Email.svg" alt=""/>
+                        <img src="../../../public/img/Telegram.svg" alt=""/>
                     </div>
                 </div>
             </div>

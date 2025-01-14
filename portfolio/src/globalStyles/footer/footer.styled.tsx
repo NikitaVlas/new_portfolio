@@ -28,8 +28,13 @@ export const FooterStyled = styled.footer`
                 font-size: ${theme.fontsize.h4};
             }
             img {
+                margin-top: 18px;
+                margin-right: 16px;
                 width: 32px;
                 height: 32px;
+            }
+            img:last-child {
+                margin-right: 0; 
             }
         }
     }
