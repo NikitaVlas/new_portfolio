@@ -53,7 +53,7 @@ export const ButtonExternal = styled.div`
     display: flex;
     flex-direction: column;
     margin-left: 25px;
-    padding: 32px 0 32px 0;
+    padding: 32px 0 0 0;
 `
 
 export const ContactExternal = styled.div`

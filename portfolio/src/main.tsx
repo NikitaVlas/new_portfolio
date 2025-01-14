@@ -6,6 +6,7 @@ import {
     Route,
 } from "react-router-dom";
 import "./globalStyles/global.css"
+import "./globalStyles/menu.css"
 import App from './App.tsx'
 import Works from "../public/pages/works/works.tsx";
 import PageLayout from "../components/layouts/PageLayout.tsx";
