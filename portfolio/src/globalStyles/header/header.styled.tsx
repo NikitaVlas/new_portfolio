@@ -23,7 +23,6 @@ export const HeaderContainer = styled.header`
                 }
                 
                 a {
-
                     color: ${theme.colors.secondary};
                     transition: color 0.3s ease;
                 }
