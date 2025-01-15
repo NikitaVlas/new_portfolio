@@ -6,8 +6,22 @@ import {setLang} from "../context/lang.ts";
 import {AllowedLangs} from "../constants/lang.ts";
 import Button from "../components/elements/Button/Button.tsx";
 import {theme} from "../styles/Theme.styled.tsx";
+import {useCallback, useEffect, useState} from "react";
 
 const App = () => {
+    const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
+
+    const handleResize = useCallback(() => {
+        setIsDesktop(window.innerWidth >= 1024);
+    }, []);
+
+    useEffect(() => {
+        window.addEventListener("resize", handleResize);
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
+
     const handleSwitchLang = (lang:string) =>{
         setLang(lang as AllowedLangs)
         localStorage.setItem("lang", JSON.stringify(lang));
@@ -19,6 +33,7 @@ const App = () => {
 
     return (
         <AppStyled>
+            {isDesktop ? (
             <ExternalContainer>
                 <ContactExternal>
                     <img src="../public/img/Linevert.svg" alt=""/>
@@ -31,6 +46,9 @@ const App = () => {
                     <Button onClick={handleSwitchLangToRu} title={"ru"}/>
                 </ButtonExternal>
             </ExternalContainer>
+            ) : (
+                ""
+            )}
             <Container>
                 <Header/>
                 <Outlet/>
