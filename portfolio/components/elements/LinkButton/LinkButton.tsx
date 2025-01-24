@@ -1,12 +1,11 @@
 import {ButtonProps} from "../../../types/elements";
-import {Link} from "react-router-dom";
 import styled from "styled-components";
 import {theme} from "../../../styles/Theme.styled.tsx";
 
 const LinkButton = ({title, to}: ButtonProps) => {
     return (
         <LinkStyling>
-            <Link to={to}>{title}</Link>
+            <a href={to}>{title}</a>
         </LinkStyling>
     );
 };
@@ -29,6 +28,7 @@ const LinkStyling = styled.div`
         line-height: 35px;
         color: ${theme.colors.secondary};
         transition: color 0.3s ease;
+        padding: 0 20px 0 20px;
     }
     
     &:hover {
