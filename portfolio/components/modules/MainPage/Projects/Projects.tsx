@@ -28,14 +28,26 @@ const Projects = ({span, img}: ProjectsProps) => {
             </div>
             <div className="image-slider-container">
                 <Slider  {...settings}>
-                    <ProjectCart tex={"React, Node.js"} title={"ProtectX"}
-                                 description={"Get answers to your kahoot quiz"}/>
-                    <ProjectCart tex={"NEOS CMS, PHP, MariaDB"} title={"ProtectX"}
-                                 description={"Get answers to your kahoot quiz"}/>
-                    <ProjectCart tex={"NEOS CMS, PHP, MariaDB"} title={"ProtectX"}
-                                 description={"Get answers to your kahoot quiz"}/>
-                    <ProjectCart tex={"NEOS CMS, PHP, MariaDB"} title={"ProtectX"}
-                                 description={"Get answers to your kahoot quiz"}/>
+                    <ProjectCart img={"../../public/img/cardPortfolio.png"}
+                                 tex={"React, Node.js"} title={"Portfolio"}
+                                 description={"Get answers to your kahoot quiz"}
+                                 to={"https://github.com/NikitaVlas/new_portfolio"}
+                    />
+                    <ProjectCart img={"../../public/img/cardCustomer.png"}
+                                 tex={"NEOS CMS, PHP, MariaDB"} title={"ProtectX"}
+                                 description={"Get answers to your kahoot quiz"}
+                                 to={"https://github.com/NikitaVlas/selfmade"}
+                    />
+                    <ProjectCart img={"../../public/img/cardBlog.png"}
+                                 tex={"NEOS CMS, PHP, MariaDB"} title={"ProtectX"}
+                                 description={"Get answers to your kahoot quiz"}
+                                 to={"https://github.com/NikitaVlas/blogMERN"}
+                    />
+                    <ProjectCart img={"../../public/img/cardNova.png"}
+                                 tex={"NEOS CMS, PHP, MariaDB"} title={"Nova Academy"}
+                                 description={"Get answers to your kahoot quiz"}
+                                 to={"https://github.com/NikitaVlas/nova_academy"}
+                    />
                 </Slider>
             </div>
         </ProjectsStyled>
