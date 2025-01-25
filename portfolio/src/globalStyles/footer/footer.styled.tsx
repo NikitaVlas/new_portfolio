@@ -24,11 +24,14 @@ export const FooterStyled = styled.footer`
         }
         
         .footerRight {
+            .footer-link {
+                margin-top: 18px;
+            }
+            
             span {
                 font-size: ${theme.fontsize.h4};
             }
-            img {
-                margin-top: 18px;
+            a {
                 margin-right: 16px;
                 width: 32px;
                 height: 32px;

@@ -37,8 +37,8 @@ const App = () => {
             <ExternalContainer>
                 <ContactExternal>
                     <img src="../public/img/Linevert.svg" alt=""/>
-                    <img src="../public/img/Github.svg" alt=""/>
-                    <img src="../public/img/Linkedin.svg" alt=""/>
+                    <a href="https://github.com/NikitaVlas" target="_blank" rel="noopener noreferrer"><img src="../public/img/Github.svg" alt=""/></a>
+                    <a href="https://www.linkedin.com/in/nikita-vlasov-13ba3b1ab/" target="_blank" rel="noopener noreferrer"><img src="../public/img/Linkedin.svg" alt=""/></a>
                 </ContactExternal>
                 <ButtonExternal>
                     <Button onClick={handleSwitchLangToEn} title={"en"}/>

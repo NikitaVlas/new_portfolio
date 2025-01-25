@@ -45,20 +45,23 @@ const ContactsPage = () => {
             <BlockTitle text={"all-media"} span={"#"} img={false}/>
             <ContactMessage>
                 <div className="contactMethod">
-                    <img src="../../../public/img/Github.svg" alt=""/>
-                    <a>NikitaVlas</a>
+                    <a href="https://github.com/NikitaVlas"><img src="../../../public/img/Github.svg"
+                                                                 alt=""/></a>
+                    <a href="https://github.com/NikitaVlas">NikitaVlas</a>
                 </div>
                 <div className="contactMethod">
-                    <img src="../../../public/img/Linkedin.svg" alt=""/>
-                    <a>nikita-vlasov</a>
+                    <a href="https://www.linkedin.com/in/nikita-vlasov-13ba3b1ab/"><img
+                        src="../../../public/img/Linkedin.svg" alt=""/></a>
+                    <a href="https://www.linkedin.com/in/nikita-vlasov-13ba3b1ab/">nikita-vlasov</a>
                 </div>
                 <div className="contactMethod">
-                    <img src="../../../public/img/Email.svg" alt=""/>
-                    <a>nikistosov@gmail.com</a>
+                    <a href={"mailto:nikistosov@gmail.com"}><img src="../../../public/img/Email.svg" alt=""/></a>
+                    <a href={"mailto:nikistosov@gmail.com"}>nikistosov@gmail.com</a>
                 </div>
-                <div className="contactMethod">
-                    <img src="../../../public/img/Telegram.svg" alt=""/>
-                    <a>@sibjpeg</a>
+                <div className="contactMethod"><a href={"https://t.me/sibjpeg"} target="_blank"
+                                                  rel="noopener noreferrer"><img
+                    src="../../../public/img/Telegram.svg" alt=""/></a>
+                    <a href={"https://t.me/sibjpeg"} target="_blank" rel="noopener noreferrer">@sibjpeg</a>
                 </div>
             </ContactMessage>
         </div>
