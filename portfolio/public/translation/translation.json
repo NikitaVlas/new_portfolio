@@ -13,6 +13,14 @@
       "underTitle": "I crafts responsive websites where technologies meet creativity",
       "button": "Contact me!",
       "currently": "Currently working on Portfolio"
+    },
+    "skills": {
+      "skills": "skills",
+      "languages": "Languages",
+      "databases": "Databases",
+      "frameworks": "Libraries/Frameworks",
+      "tools": "Tools",
+      "other": "Other"
     }
   },
   "de":{
@@ -29,6 +37,14 @@
       "underTitle": "Ich erstelle responsive Websites, bei denen Technologie auf Kreativität trifft",
       "button": "Schreib mir!",
       "currently": "Derzeit arbeite ich an Portfolio"
+    },
+    "skills": {
+      "skills": "fähigkeiten",
+      "languages": "Sprachen",
+      "databases": "Datenbanken",
+      "frameworks": "Bibliotheken/Frameworks",
+      "tools": "Tools",
+      "other": "Sonst"
     }
   },
   "ru":{
@@ -45,6 +61,14 @@
       "underTitle": "Я создаю адаптивные веб-сайты, в которых технологии сочетаются с креативностью.",
       "button": "Напиши мне!",
       "currently": "В настоящее время работаю над портфолио"
+    },
+    "skills": {
+      "skills": "навыки",
+      "languages": "Языки",
+      "databases": "Базы данных",
+      "frameworks": "Библиотеки/Фреймворки",
+      "tools": "Инструменты",
+      "other": "Остальное"
     }
   }
 }
