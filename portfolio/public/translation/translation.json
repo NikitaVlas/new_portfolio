@@ -5,6 +5,14 @@
       "works": "works",
       "about": "about-me",
       "contacts": "contacts"
+    },
+    "hero": {
+      "title1": "I'm a ",
+      "title2": "front-end ",
+      "title3": "developer",
+      "underTitle": "I crafts responsive websites where technologies meet creativity",
+      "button": "Contact me!",
+      "currently": "Currently working on Portfolio"
     }
   },
   "de":{
@@ -13,6 +21,14 @@
       "works": "Projekte",
       "about": "Über mich",
       "contacts": "Kontakte"
+    },
+    "hero": {
+      "title1": "Ich bin ",
+      "title2": "Frontend-Entwickler",
+      "title3": "",
+      "underTitle": "Ich erstelle responsive Websites, bei denen Technologie auf Kreativität trifft",
+      "button": "Schreib mir!",
+      "currently": "Derzeit arbeite ich an Portfolio"
     }
   },
   "ru":{
@@ -21,6 +37,14 @@
       "works": "проекты",
       "about": "обо мне",
       "contacts": "контакты"
+    },
+    "hero": {
+      "title1": "Я ",
+      "title2": "front-end ",
+      "title3": "разработчик",
+      "underTitle": "Я создаю адаптивные веб-сайты, в которых технологии сочетаются с креативностью.",
+      "button": "Напиши мне!",
+      "currently": "В настоящее время работаю над портфолио"
     }
   }
 }
