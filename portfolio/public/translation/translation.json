@@ -21,6 +21,11 @@
       "frameworks": "Libraries/Frameworks",
       "tools": "Tools",
       "other": "Other"
+    },
+    "contacts": {
+      "contacts": "contacts",
+      "message": "Message me here",
+      "opportunities": "I am open to any opportunities as a frontend developer, including freelance work. Additionally, I am interested in exploring backend development and working with AI technologies."
     }
   },
   "de":{
@@ -45,6 +50,11 @@
       "frameworks": "Bibliotheken/Frameworks",
       "tools": "Tools",
       "other": "Sonst"
+    },
+    "contacts": {
+      "contacts": "kontakte",
+      "message": "Schreib mir hier",
+      "opportunities": "Ich bin offen für alle Möglichkeiten als Frontend-Entwickler, einschließlich freiberuflicher Arbeit. Darüber hinaus interessiere ich mich dafür, mich in der Backend-Entwicklung auszuprobieren und mit KI-Technologien zu arbeiten."
     }
   },
   "ru":{
@@ -69,6 +79,11 @@
       "frameworks": "Библиотеки/Фреймворки",
       "tools": "Инструменты",
       "other": "Остальное"
+    },
+    "contacts": {
+      "contacts": "контакты",
+      "message": "Напиши мне здесь",
+      "opportunities": "Я открыт для любых предложений по работе в качестве фронтенд-разработчика, включая фриланс. Кроме того, мне интересно попробовать себя в роли бэкенд-разработчика и поработать с технологиями искусственного интеллекта."
     }
   }
 }

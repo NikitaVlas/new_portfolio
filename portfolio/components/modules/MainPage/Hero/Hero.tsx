@@ -8,11 +8,10 @@ const Hero = () => {
     return (
         <HeroStyled>
             <div className="heroBlock">
-                <h1>{translations[lang].hero.title1}<span>{translations[lang].hero.title2}</span>{translations[lang].hero.title3}</h1>
+                <h1>{translations[lang].hero.title1}<span>{translations[lang].hero.title2}</span>{translations[lang].hero.title3}
+                </h1>
                 <span>{translations[lang].hero.underTitle}</span>
-                <div>
-                    <LinkButton title={translations[lang].hero.button} to={"/pages/contacts"}/>
-                </div>
+                <LinkButton title={translations[lang].hero.button} to={"/pages/contacts"}/>
             </div>
             <div className="elements">
                 <img className="mainIMG" src="../../../../public/img/photoHero.png" alt=""/>

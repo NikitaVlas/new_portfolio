@@ -1,5 +1,7 @@
 import BlockTitle from "../../../elements/BlockTitle/BlockTitle";
 import {ContactsStyled} from "../../../../src/globalStyles/contacts/contacts.styled.tsx";
+import {useLang} from "../../../../hooks/useLang.ts";
+import LinkButton from "../../../elements/LinkButton/LinkButton.tsx";
 
 type ContactsProps = {
     span: string
@@ -7,16 +9,18 @@ type ContactsProps = {
 }
 
 const Contacts = ({span, img}: ContactsProps) => {
+    const {lang, translations} = useLang()
+
     return (
         <ContactsStyled>
-            <BlockTitle text={"contacts"} span={span} img={img}/>
+            <BlockTitle text={translations[lang].contacts.contacts} span={span} img={img}/>
             <div className="contactsContainer">
                 <div className="contactsDescription">
-                    <p>I’m interested in freelance opportunities. However, if you have other request or question, don’t
-                        hesitate to contact me</p>
+                    <p>{translations[lang].contacts.opportunities}</p>
+                    <LinkButton title={translations[lang].hero.button} to={"/pages/contacts"}/>
                 </div>
                 <div className="contactsMessage">
-                    <span>Message me here</span>
+                    <span>{translations[lang].contacts.message}</span>
                     <div className="contactMethod">
                         <a href="https://github.com/NikitaVlas" target="_blank" rel="noopener noreferrer"><img src="../../../public/img/Github.svg"
                                                                      alt=""/></a>
