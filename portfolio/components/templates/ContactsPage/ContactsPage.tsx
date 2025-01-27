@@ -4,8 +4,10 @@ import {ElementRef, useRef} from "react";
 import Button from "../../elements/Button/Button.tsx";
 import styled from "styled-components";
 import {theme} from "../../../styles/Theme.styled.tsx";
+import {useLang} from "../../../hooks/useLang.ts";
 
 const ContactsPage = () => {
+    const {lang, translations} = useLang()
     const form = useRef<ElementRef<"form">>(null);
 
     const serviceId = import.meta.env.VITE_APP_SERVICE_ID!;
@@ -34,15 +36,15 @@ const ContactsPage = () => {
 
     return (
         <div>
-            <BlockTitle text={"contacts"} span={"/"} img={false}/>
+            <BlockTitle text={translations[lang].contacts.contacts} span={"/"} img={false}/>
             <FormStyled ref={form} onSubmit={sendEmail}>
-                <input type="text" placeholder={"name"} name={"name"} required/>
-                <input type="email" placeholder={"email"} name={"email"} required/>
-                <input type="text" placeholder={"subject"} name={"subject"} required/>
-                <textarea name={"message"} placeholder={"message"} id="" cols="30" rows="10" required></textarea>
-                <Button title="Send"/>
+                <input type="text" placeholder={translations[lang].contacts.name} name={"name"} required/>
+                <input type="email" placeholder={translations[lang].contacts.email} name={"email"} required/>
+                <input type="text" placeholder={translations[lang].contacts.subject} name={"subject"} required/>
+                <textarea name={"message"} placeholder={translations[lang].contacts.messageForm} id="" cols="30" rows="10" required></textarea>
+                <Button title={translations[lang].contacts.sendButton}/>
             </FormStyled>
-            <BlockTitle text={"all-media"} span={"#"} img={false}/>
+            <BlockTitle text={translations[lang].contacts.media} span={"#"} img={false}/>
             <ContactMessage>
                 <div className="contactMethod">
                     <a href="https://github.com/NikitaVlas"><img src="../../../public/img/Github.svg"
