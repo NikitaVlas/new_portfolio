@@ -18,7 +18,6 @@ const Skills = ({block, span, img}: SkillsProps) => {
             <div className={block ? "container" : "containerAboutPage"}>
                 {block ? <div className="elements">
                     <span className={"pseudo"}/>
-                    {/*<img className="doubleSquad" src="../../../../public/img/doubleSquad.svg" alt=""/>*/}
                 </div> : ""}
                 <div className="skillsContainer">
                     <Skill block={block} title={translations[lang].skills.languages} skill={"JavaScript TypeScript Node.JS PHP Java"}/>

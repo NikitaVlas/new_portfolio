@@ -41,7 +41,7 @@ const ContactsPage = () => {
                 <input type="text" placeholder={translations[lang].contacts.name} name={"name"} required/>
                 <input type="email" placeholder={translations[lang].contacts.email} name={"email"} required/>
                 <input type="text" placeholder={translations[lang].contacts.subject} name={"subject"} required/>
-                <textarea name={"message"} placeholder={translations[lang].contacts.messageForm} id="" cols="30" rows="10" required></textarea>
+                <textarea name={"message"} placeholder={translations[lang].contacts.messageForm} id="" cols={30} rows={10} required></textarea>
                 <Button title={translations[lang].contacts.sendButton}/>
             </FormStyled>
             <BlockTitle text={translations[lang].contacts.media} span={"#"} img={false}/>

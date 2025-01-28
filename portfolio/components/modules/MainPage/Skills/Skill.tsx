@@ -5,7 +5,7 @@ import {theme} from "../../../../styles/Theme.styled.tsx";
 type SKillProps = {
     skill: string
     title: string
-    block?: boolean
+    block?: boolean | undefined
 }
 
 const Skill = ({skill, title, block}: SKillProps) => {
