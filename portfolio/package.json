@@ -1,13 +1,16 @@
 {
   "name": "portfolio",
   "private": true,
+  "homepage": "https://Nikita.github.io/new_portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "yarn run build",
+    "deploy": "yarn run build && gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -16,9 +19,10 @@
     "dotenv": "^16.4.7",
     "effector": "^23.2.3",
     "effector-react": "^23.3.0",
-    "react": "^18.3.1",
+    "gh-pages": "^6.3.0",
+    "react": "^19.0.0",
     "react-alice-carousel": "^2.9.1",
-    "react-dom": "^18.3.1",
+    "react-dom": "^19.0.0",
     "react-router-dom": "6",
     "react-slick": "^0.30.3",
     "scss": "^0.2.4",
