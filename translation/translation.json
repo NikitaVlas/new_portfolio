@@ -1,0 +1,122 @@
+{
+  "en":{
+    "header": {
+      "home": "home",
+      "works": "works",
+      "about": "about-me",
+      "contacts": "contacts"
+    },
+    "hero": {
+      "title1": "I'm a ",
+      "title2": "front-end ",
+      "title3": "developer",
+      "underTitle": "I crafts responsive websites where technologies meet creativity",
+      "button": "Contact me!",
+      "currently": "Currently working on Portfolio"
+    },
+    "skills": {
+      "skills": "skills",
+      "languages": "Languages",
+      "databases": "Databases",
+      "frameworks": "Libraries/Frameworks",
+      "tools": "Tools",
+      "other": "Other"
+    },
+    "contacts": {
+      "contacts": "contacts",
+      "message": "Message me here",
+      "opportunities": "I am open to any opportunities as a frontend developer, including freelance work. Additionally, I am interested in exploring backend development and working with AI technologies.",
+      "name": "name",
+      "email": "email",
+      "subject": "subject",
+      "messageForm": "message",
+      "sendButton": "Send",
+      "media": "all-media"
+    },
+    "about": {
+      "about": "about-me",
+      "description": "Hello, I’m Nikita! I completed an apprenticeship as an IT specialist for application development in Germany and have been programming for about four years. During this time, I’ve gained substantial experience with various technologies and tools, including JavaScript with React, TypeScript, and PHP. I’ve also taught myself Node.js, Java, and Angular. I’ve actively worked with databases like MongoDB and MariaDB. Continuous learning and skill improvement are essential parts of my professional growth — I always strive to stay updated with the latest technologies and development approaches.\n\nMy goal is to create modern, user-friendly, and efficient software solutions. I believe my knowledge and experience allow me to tackle diverse challenges and deliver products that clients value.",
+      "button": "Read more"
+    }
+  },
+  "de":{
+    "header": {
+      "home": "Hous",
+      "works": "Projekte",
+      "about": "Über mich",
+      "contacts": "Kontakte"
+    },
+    "hero": {
+      "title1": "Ich bin ",
+      "title2": "Frontend-Entwickler",
+      "title3": "",
+      "underTitle": "Ich erstelle responsive Websites, bei denen Technologie auf Kreativität trifft",
+      "button": "Schreib mir!",
+      "currently": "Derzeit arbeite ich an Portfolio"
+    },
+    "skills": {
+      "skills": "fähigkeiten",
+      "languages": "Sprachen",
+      "databases": "Datenbanken",
+      "frameworks": "Bibliotheken/Frameworks",
+      "tools": "Tools",
+      "other": "Sonst"
+    },
+    "contacts": {
+      "contacts": "kontakte",
+      "message": "Schreib mir hier",
+      "opportunities": "Ich bin offen für alle Möglichkeiten als Frontend-Entwickler, einschließlich freiberuflicher Arbeit. Darüber hinaus interessiere ich mich dafür, mich in der Backend-Entwicklung auszuprobieren und mit KI-Technologien zu arbeiten.",
+      "name": "Name",
+      "email": "Email",
+      "subject": "Thema",
+      "messageForm": "Nachricht",
+      "sendButton": "Senden",
+      "media": "alle Medien"
+    },
+    "about": {
+      "about": "über mich",
+      "description": "Hallo, ich bin Nikita! Ich habe eine Ausbildung als Fachinformatiker für Anwendungsentwicklung in Deutschland abgeschlossen und programmiere seit etwa vier Jahren. In dieser Zeit habe ich umfangreiche Erfahrung mit verschiedenen Technologien und Tools gesammelt, darunter JavaScript mit React, TypeScript und PHP. Außerdem habe ich mir eigenständig Kenntnisse in Node.js, Java und Angular angeeignet. Ich habe aktiv mit Datenbanken wie MongoDB und MariaDB gearbeitet. Kontinuierliches Lernen und die Weiterentwicklung meiner Fähigkeiten sind ein zentraler Bestandteil meiner Arbeit — ich bemühe mich stets, mit den neuesten Technologien und Ansätzen in der Entwicklung Schritt zu halten. Mein Ziel ist es, moderne, benutzerfreundliche und effiziente Softwarelösungen zu entwickeln. Ich bin überzeugt, dass mein Wissen und meine Erfahrung es mir ermöglichen, vielfältige Herausforderungen zu meistern und Produkte zu schaffen, die von Kunden geschätzt werden.",
+      "button": "Mehr lesen"
+    }
+  },
+  "ru":{
+    "header": {
+      "home": "главная",
+      "works": "проекты",
+      "about": "обо мне",
+      "contacts": "контакты"
+    },
+    "hero": {
+      "title1": "Я ",
+      "title2": "front-end ",
+      "title3": "разработчик",
+      "underTitle": "Я создаю адаптивные веб-сайты, в которых технологии сочетаются с креативностью.",
+      "button": "Напиши мне!",
+      "currently": "В настоящее время работаю над портфолио"
+    },
+    "skills": {
+      "skills": "навыки",
+      "languages": "Языки",
+      "databases": "Базы данных",
+      "frameworks": "Библиотеки/Фреймворки",
+      "tools": "Инструменты",
+      "other": "Остальное"
+    },
+    "contacts": {
+      "contacts": "контакты",
+      "message": "Напиши мне здесь",
+      "opportunities": "Я открыт для любых предложений по работе в качестве фронтенд-разработчика, включая фриланс. Кроме того, мне интересно попробовать себя в роли бэкенд-разработчика и поработать с технологиями искусственного интеллекта.",
+      "name": "имя",
+      "email": "email",
+      "subject": "тема",
+      "messageForm": "сообщение",
+      "sendButton": "Отправить",
+      "media": "все медиа"
+    },
+    "about": {
+      "about": "обо мне",
+      "description": "Привет, я Никита! Я окончил колледж в направлении информатик, разработчик веб приложений в Германии и уже около четырех лет занимаюсь программированием. За это время я приобрел большой опыт работы с различными технологиями и инструментами, включая JavaScript с React, TypeScript, PHP, а также самостоятельно изучил Node.js, Java и Angular. Я активно работал с базами данных MongoDB и MariaDB. Постоянное обучение и развитие являются важной частью моей работы — я всегда стараюсь быть в курсе современных технологий и подходов в разработке.\n\nМоя цель — создавать современные, удобные для пользователей и эффективные программные решения. Я уверен, что мои знания и опыт помогут мне справляться с любыми профессиональными задачами и создавать продукты, которые ценят клиенты.",
+      "button": "Читать далее"
+    }
+  }
+}
