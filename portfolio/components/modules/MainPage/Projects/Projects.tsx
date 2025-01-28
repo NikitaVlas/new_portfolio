@@ -27,7 +27,9 @@ const Projects = ({span, img}: ProjectsProps) => {
                 <LinkButton title={"View all"} to="/pages/works"/>
             </div>
             <div className="image-slider-container">
-                <Slider  {...settings}>
+                {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+                {/* @ts-expect-error */}
+                <Slider {...settings}>
                     <ProjectCart img={"../../public/img/cardPortfolio.png"}
                                  tex={"React, Node.js"} title={"Portfolio"}
                                  description={"Get answers to your kahoot quiz"}

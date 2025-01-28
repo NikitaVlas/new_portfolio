@@ -8,10 +8,10 @@ type SKillProps = {
     block?: boolean | undefined
 }
 
-const Skill = ({skill, title, block}: SKillProps) => {
+const Skill = ({skill, title}: SKillProps) => {
         return (
             <div>
-                <SkillStyled block={block}>
+                <SkillStyled >
                     < p className="title">{title}</p>
                     <p>{skill}</p>
                 </SkillStyled>
