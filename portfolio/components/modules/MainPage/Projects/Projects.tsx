@@ -5,6 +5,7 @@ import LinkButton from "../../../elements/LinkButton/LinkButton.tsx";
 import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import {useLang} from "../../../../hooks/useLang.ts";
 
 type ProjectsProps = {
     span: string
@@ -12,6 +13,8 @@ type ProjectsProps = {
 }
 
 const Projects = ({span, img}: ProjectsProps) => {
+    const {lang, translations} = useLang()
+
     const settings = {
         dots: false,
         infinite: true,
@@ -23,8 +26,8 @@ const Projects = ({span, img}: ProjectsProps) => {
     return (
         <ProjectsStyled>
             <div className="projectsHead">
-                <BlockTitle text={"projects"} span={span} img={img}/>
-                <LinkButton title={"View all"} to="/pages/works"/>
+                <BlockTitle text={translations[lang].project.projects} span={span} img={img}/>
+                <LinkButton title={translations[lang].project.buttonView} to="/pages/works"/>
             </div>
             <div className="image-slider-container">
                 {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}

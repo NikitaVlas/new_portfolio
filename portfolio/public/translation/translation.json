@@ -37,6 +37,10 @@
       "about": "about-me",
       "description": "Hello, I’m Nikita! I completed an apprenticeship as an IT specialist for application development in Germany and have been programming for about four years. During this time, I’ve gained substantial experience with various technologies and tools, including JavaScript with React, TypeScript, and PHP. I’ve also taught myself Node.js, Java, and Angular. I’ve actively worked with databases like MongoDB and MariaDB. Continuous learning and skill improvement are essential parts of my professional growth — I always strive to stay updated with the latest technologies and development approaches.\n\nMy goal is to create modern, user-friendly, and efficient software solutions. I believe my knowledge and experience allow me to tackle diverse challenges and deliver products that clients value.",
       "button": "Read more"
+    },
+    "project": {
+      "projects": "projects",
+      "buttonView": "View all"
     }
   },
   "de":{
@@ -77,6 +81,10 @@
       "about": "über mich",
       "description": "Hallo, ich bin Nikita! Ich habe eine Ausbildung als Fachinformatiker für Anwendungsentwicklung in Deutschland abgeschlossen und programmiere seit etwa vier Jahren. In dieser Zeit habe ich umfangreiche Erfahrung mit verschiedenen Technologien und Tools gesammelt, darunter JavaScript mit React, TypeScript und PHP. Außerdem habe ich mir eigenständig Kenntnisse in Node.js, Java und Angular angeeignet. Ich habe aktiv mit Datenbanken wie MongoDB und MariaDB gearbeitet. Kontinuierliches Lernen und die Weiterentwicklung meiner Fähigkeiten sind ein zentraler Bestandteil meiner Arbeit — ich bemühe mich stets, mit den neuesten Technologien und Ansätzen in der Entwicklung Schritt zu halten. Mein Ziel ist es, moderne, benutzerfreundliche und effiziente Softwarelösungen zu entwickeln. Ich bin überzeugt, dass mein Wissen und meine Erfahrung es mir ermöglichen, vielfältige Herausforderungen zu meistern und Produkte zu schaffen, die von Kunden geschätzt werden.",
       "button": "Mehr lesen"
+    },
+    "project": {
+      "projects": "projekte",
+      "buttonView": "Alle anzeigen"
     }
   },
   "ru":{
@@ -117,6 +125,10 @@
       "about": "обо мне",
       "description": "Привет, я Никита! Я окончил колледж в направлении информатик, разработчик веб приложений в Германии и уже около четырех лет занимаюсь программированием. За это время я приобрел большой опыт работы с различными технологиями и инструментами, включая JavaScript с React, TypeScript, PHP, а также самостоятельно изучил Node.js, Java и Angular. Я активно работал с базами данных MongoDB и MariaDB. Постоянное обучение и развитие являются важной частью моей работы — я всегда стараюсь быть в курсе современных технологий и подходов в разработке.\n\nМоя цель — создавать современные, удобные для пользователей и эффективные программные решения. Я уверен, что мои знания и опыт помогут мне справляться с любыми профессиональными задачами и создавать продукты, которые ценят клиенты.",
       "button": "Читать далее"
+    },
+    "project": {
+      "projects": "проекты",
+      "buttonView": "Посмотреть все"
     }
   }
 }
