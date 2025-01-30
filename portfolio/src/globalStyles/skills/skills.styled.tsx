@@ -50,6 +50,7 @@ export const SkillsStyled = styled.div`
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-auto-rows: minmax(100px, auto);
+            gap: 10px; 
 
             :nth-child(4) {
                 grid-column: 2 / 3;
