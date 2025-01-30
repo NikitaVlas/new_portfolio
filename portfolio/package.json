@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
-  "homepage": "https://NikitaVlas.github.io/new_portfolio",
+  "homepage": "https://NikitaVlas.github.io/new_portfolio/portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
