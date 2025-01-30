@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {theme} from "../../../styles/Theme.styled.tsx";
 
-import squad1 from '../../assets/squad1.svg';
+// import squad1 from ;
 
 
 export const HeroStyled = styled.div `
@@ -43,7 +43,7 @@ export const HeroStyled = styled.div `
             left: 250px;
             width: 100px; /* Размер изображения */
             height: 100px;
-            background: url(${squad1}) no-repeat center center;
+            background: url('../../../public/img/squad1.svg') no-repeat center center;
             background-size: cover; /* Масштабирует второе изображение */
             z-index: 2; /* Поверх заднего изображения */
         }
@@ -56,7 +56,7 @@ export const HeroStyled = styled.div `
         left: 920px;
         width: 100px; /* Размер изображения */
         height: 100px;
-        background: url('../../assets/doubleSquad.svg') no-repeat center center;
+        background: url('../../../public/img/doubleSquad.svg') no-repeat center center;
         background-size: cover; /* Масштабирует второе изображение */
         z-index: 1; /* Поверх заднего изображения */
     }
