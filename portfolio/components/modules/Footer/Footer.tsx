@@ -1,6 +1,9 @@
 import {FooterStyled} from "../../../src/globalStyles/footer/footer.styled.tsx";
 import {Link} from "react-router-dom";
 import githubLogo from "../../../src/assets/Github.svg";
+import linkedinLogo from "../../../src/assets/Linkedin.svg";
+import emailLogo from "../../../src/assets/Email.svg";
+import telegramLogo from "../../../src/assets/Telegram.svg";
 
 const Footer = () => {
     return (
@@ -21,10 +24,10 @@ const Footer = () => {
                             alt=""/></a>
                         <a href="https://www.linkedin.com/in/nikita-vlasov-13ba3b1ab/" target="_blank"
                            rel="noopener noreferrer"><img
-                            src="../../../src/assets/img/Linkedin.svg" alt=""/></a>
-                        <a href={"mailto:nikistosov@gmail.com"}><img src="../../../src/assets/img/Email.svg" alt=""/></a>
+                            src={linkedinLogo} alt=""/></a>
+                        <a href={"mailto:nikistosov@gmail.com"}><img src={emailLogo} alt=""/></a>
                         <a href={"https://t.me/sibjpeg"} target="_blank" rel="noopener noreferrer"><img
-                            src="../../../src/assets/img/Telegram.svg" alt=""/></a>
+                            src={telegramLogo} alt=""/></a>
                     </div>
                 </div>
             </div>
