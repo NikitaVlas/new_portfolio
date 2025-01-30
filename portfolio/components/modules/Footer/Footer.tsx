@@ -9,6 +9,7 @@ const Footer = () => {
                 <div className="footerLeft">
                     <Link className="icon" to="/">Nikita</Link>
                     <a href={"mailto:nikistosov@gmail.com"}><span>nikistosov@gmail.com</span></a>
+                    <a href={"mailto:nikistosov@gmail.com"}><span>nikistosov@gmail.com</span></a>
                 </div>
                 <div className="footerRight">
                     <div>
