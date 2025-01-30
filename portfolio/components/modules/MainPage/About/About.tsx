@@ -3,6 +3,7 @@ import BlockTitle from "../../../elements/BlockTitle/BlockTitle";
 import LinkButton from "../../../elements/LinkButton/LinkButton.tsx";
 import {AboutStyled} from "../../../../src/globalStyles/about/about.staled.tsx";
 import {useLang} from "../../../../hooks/useLang.ts";
+import photoAbout from "../../../../src/assets/photoabout.png"
 
 type AboutProps = {
     button: boolean
@@ -22,7 +23,7 @@ const About = ({button, span, img}: AboutProps) => {
                     {button ? <LinkButton title={translations[lang].about.button} to={"/pages/about"}/> : ""}
                 </div>
                 <div >
-                    <img src="../../../../src/assets/img/photoabout.png" alt=""/>
+                    <img src={photoAbout} alt=""/>
                 </div>
             </div>
         </AboutStyled>
