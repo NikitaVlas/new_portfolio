@@ -1,5 +1,6 @@
 import {FooterStyled} from "../../../src/globalStyles/footer/footer.styled.tsx";
 import {Link} from "react-router-dom";
+import githubLogo from "../../../src/assets/img/Github.svg";
 
 const Footer = () => {
     return (
@@ -16,7 +17,7 @@ const Footer = () => {
                     </div>
                     <div className="footer-link">
                         <a href="https://github.com/NikitaVlas" target="_blank" rel="noopener noreferrer"><img
-                            src="../../../src/assets/img/Github.svg"
+                            src={githubLogo}
                             alt=""/></a>
                         <a href="https://www.linkedin.com/in/nikita-vlasov-13ba3b1ab/" target="_blank"
                            rel="noopener noreferrer"><img
