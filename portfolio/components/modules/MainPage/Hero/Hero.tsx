@@ -1,6 +1,8 @@
 import LinkButton from "../../../elements/LinkButton/LinkButton.tsx";
 import {HeroStyled} from "../../../../src/globalStyles/hero/hero.styled.tsx";
 import {useLang} from "../../../../hooks/useLang.ts";
+import photoHero from "../../../../src/assets/photoHero.png";
+import rectangle from "../../../../src/assets/Rectangle.svg";
 
 const Hero = () => {
     const {lang, translations} = useLang()
@@ -14,9 +16,9 @@ const Hero = () => {
                 <LinkButton title={translations[lang].hero.button} to={"/pages/contacts"}/>
             </div>
             <div className="elements">
-                <img className="mainIMG" src="../../../../src/assets/img/photoHero.png" alt=""/>
+                <img className="mainIMG" src={photoHero} alt=""/>
                 <div>
-                    <img src="../../../../src/assets/img/Rectangle.svg" alt=""/>
+                    <img src={rectangle} alt=""/>
                     <span>{translations[lang].hero.currently}</span>
                 </div>
             </div>
