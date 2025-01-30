@@ -3,6 +3,8 @@ import {HeroStyled} from "../../../../src/globalStyles/hero/hero.styled.tsx";
 import {useLang} from "../../../../hooks/useLang.ts";
 import photoHero from "../../../../src/assets/photoHero.png";
 import rectangle from "../../../../src/assets/Rectangle.svg";
+import squad1 from "../../../../src/assets/squad1.svg";
+import doubleSquad from "../../../../src/assets/doubleSquad.svg";
 
 const Hero = () => {
     const {lang, translations} = useLang()
@@ -16,6 +18,8 @@ const Hero = () => {
                 <LinkButton title={translations[lang].hero.button} to={"/pages/contacts"}/>
             </div>
             <div className="elements">
+                <img className="squad1"  src={squad1} alt=""/>
+                <img className="doubleSquad"  src={doubleSquad} alt=""/>
                 <img className="mainIMG" src={photoHero} alt=""/>
                 <div>
                     <img src={rectangle} alt=""/>

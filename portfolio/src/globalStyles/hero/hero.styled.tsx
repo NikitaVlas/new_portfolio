@@ -35,29 +35,18 @@ export const HeroStyled = styled.div `
             position: relative;
             z-index: 2;
         }
-
-        &::after {
-            content: "";
+        
+        .squad1{
             position: absolute;
             top: 237px;
             left: 250px;
-            width: 100px; /* Размер изображения */
-            height: 100px;
-            background: url('../../../public/img/squad1.svg') no-repeat center center;
-            background-size: cover; /* Масштабирует второе изображение */
-            z-index: 2; /* Поверх заднего изображения */
+            z-index: 3;
         }
-    }
-
-    &::before {
-        content: "";
-        position: absolute;
-        top: 220px;
-        left: 920px;
-        width: 100px; /* Размер изображения */
-        height: 100px;
-        background: url('../../../public/img/doubleSquad.svg') no-repeat center center;
-        background-size: cover; /* Масштабирует второе изображение */
-        z-index: 1; /* Поверх заднего изображения */
-    }
+        
+        .doubleSquad {
+            position: absolute;
+            z-index: 1;
+            top: 50px;
+            left: 40px;
+        }
 `
