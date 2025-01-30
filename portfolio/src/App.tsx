@@ -36,9 +36,9 @@ const App = () => {
             {isDesktop ? (
             <ExternalContainer>
                 <ContactExternal>
-                    <img src="../public/img/Linevert.svg" alt=""/>
-                    <a href="https://github.com/NikitaVlas" target="_blank" rel="noopener noreferrer"><img src="../public/img/Github.svg" alt=""/></a>
-                    <a href="https://www.linkedin.com/in/nikita-vlasov-13ba3b1ab/" target="_blank" rel="noopener noreferrer"><img src="../public/img/Linkedin.svg" alt=""/></a>
+                    <img src="assets/img/Linevert.svg" alt=""/>
+                    <a href="https://github.com/NikitaVlas" target="_blank" rel="noopener noreferrer"><img src="assets/img/Github.svg" alt=""/></a>
+                    <a href="https://www.linkedin.com/in/nikita-vlasov-13ba3b1ab/" target="_blank" rel="noopener noreferrer"><img src="assets/img/Linkedin.svg" alt=""/></a>
                 </ContactExternal>
                 <ButtonExternal>
                     <Button onClick={handleSwitchLangToEn} title={"en"}/>

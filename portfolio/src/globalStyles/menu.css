@@ -88,8 +88,8 @@
     left: 3px;
     position: absolute;
     top: 0;
-    -webkit-mask: url(../../public/img/close-small.svg) no-repeat 50% 50%;
-    mask: url(../../public/img/close-small.svg) no-repeat 50% 50%;
+    -webkit-mask: url(../assets/img/close-small.svg) no-repeat 50% 50%;
+    mask: url(../assets/img/close-small.svg) no-repeat 50% 50%;
     transition: background-color 0.2s ease-in-out;
 }
 

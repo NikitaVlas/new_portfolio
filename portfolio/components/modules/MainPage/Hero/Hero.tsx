@@ -14,9 +14,9 @@ const Hero = () => {
                 <LinkButton title={translations[lang].hero.button} to={"/pages/contacts"}/>
             </div>
             <div className="elements">
-                <img className="mainIMG" src="../../../../public/img/photoHero.png" alt=""/>
+                <img className="mainIMG" src="../../../../src/assets/img/photoHero.png" alt=""/>
                 <div>
-                    <img src="../../../../public/img/Rectangle.svg" alt=""/>
+                    <img src="../../../../src/assets/img/Rectangle.svg" alt=""/>
                     <span>{translations[lang].hero.currently}</span>
                 </div>
             </div>

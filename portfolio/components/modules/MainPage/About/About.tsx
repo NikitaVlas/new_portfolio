@@ -22,7 +22,7 @@ const About = ({button, span, img}: AboutProps) => {
                     {button ? <LinkButton title={translations[lang].about.button} to={"/pages/about"}/> : ""}
                 </div>
                 <div >
-                    <img src="../../../../public/img/photoabout.png" alt=""/>
+                    <img src="../../../../src/assets/img/photoabout.png" alt=""/>
                 </div>
             </div>
         </AboutStyled>

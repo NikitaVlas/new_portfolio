@@ -47,22 +47,22 @@ const ContactsPage = () => {
             <BlockTitle text={translations[lang].contacts.media} span={"#"} img={false}/>
             <ContactMessage>
                 <div className="contactMethod">
-                    <a href="https://github.com/NikitaVlas"><img src="../../../public/img/Github.svg"
+                    <a href="https://github.com/NikitaVlas"><img src="../../../src/assets/img/Github.svg"
                                                                  alt=""/></a>
                     <a href="https://github.com/NikitaVlas">NikitaVlas</a>
                 </div>
                 <div className="contactMethod">
                     <a href="https://www.linkedin.com/in/nikita-vlasov-13ba3b1ab/"><img
-                        src="../../../public/img/Linkedin.svg" alt=""/></a>
+                        src="../../../src/assets/img/Linkedin.svg" alt=""/></a>
                     <a href="https://www.linkedin.com/in/nikita-vlasov-13ba3b1ab/">nikita-vlasov</a>
                 </div>
                 <div className="contactMethod">
-                    <a href={"mailto:nikistosov@gmail.com"}><img src="../../../public/img/Email.svg" alt=""/></a>
+                    <a href={"mailto:nikistosov@gmail.com"}><img src="../../../src/assets/img/Email.svg" alt=""/></a>
                     <a href={"mailto:nikistosov@gmail.com"}>nikistosov@gmail.com</a>
                 </div>
                 <div className="contactMethod"><a href={"https://t.me/sibjpeg"} target="_blank"
                                                   rel="noopener noreferrer"><img
-                    src="../../../public/img/Telegram.svg" alt=""/></a>
+                    src="../../../src/assets/img/Telegram.svg" alt=""/></a>
                     <a href={"https://t.me/sibjpeg"} target="_blank" rel="noopener noreferrer">@sibjpeg</a>
                 </div>
             </ContactMessage>

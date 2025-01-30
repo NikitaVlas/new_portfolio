@@ -11,7 +11,7 @@ const BlockTitle = ({text, span, img}: BlockTitleProps) => {
     return (
         <BlockTitleStyle>
             <h3><span>{span}</span>{text}</h3>
-            {img ? <img src="../../../public/img/Line.svg" alt=""/> : ""}
+            {img ? <img src="../../../src/assets/img/Line.svg" alt=""/> : ""}
         </BlockTitleStyle>
     );
 };
