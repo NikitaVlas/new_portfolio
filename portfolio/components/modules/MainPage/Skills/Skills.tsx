@@ -2,6 +2,10 @@ import BlockTitle from "../../../elements/BlockTitle/BlockTitle";
 import Skill from "./Skill.tsx";
 import {SkillsStyled} from "../../../../src/globalStyles/skills/skills.styled.tsx";
 import {useLang} from "../../../../hooks/useLang.ts";
+import dotsSmall from "../../../../src/assets/dotsSmall.svg";
+import doubleSquad from "../../../../src/assets/doubleSquad.svg";
+import rectangleSmall from "../../../../src/assets/Rectanglesmall.svg";
+import rectangleSmall2 from "../../../../src/assets/Rectanglesmall.svg";
 
 type SkillsProps = {
     block: boolean
@@ -17,7 +21,10 @@ const Skills = ({block, span, img}: SkillsProps) => {
             <BlockTitle text={translations[lang].skills.skills} span={span} img={img}/>
             <div className={block ? "container" : "containerAboutPage"}>
                 {block ? <div className="elements">
-                    <span className={"pseudo"}/>
+                    <img className="dotsSmall" src={dotsSmall} alt=""/>
+                    <img className="rectangleSmall" src={rectangleSmall} alt=""/>
+                    <img className="doubleSquad" src={doubleSquad} alt=""/>
+                    <img className="rectangleSmall2" src={rectangleSmall2} alt=""/>
                 </div> : ""}
                 <div className="skillsContainer">
                     <Skill block={block} title={translations[lang].skills.languages} skill={"JavaScript TypeScript Node.JS PHP Java"}/>

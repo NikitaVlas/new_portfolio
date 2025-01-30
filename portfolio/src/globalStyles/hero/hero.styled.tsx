@@ -1,9 +1,6 @@
 import styled from "styled-components";
 import {theme} from "../../../styles/Theme.styled.tsx";
 
-// import squad1 from ;
-
-
 export const HeroStyled = styled.div `
     display: flex;
     justify-content: space-between;

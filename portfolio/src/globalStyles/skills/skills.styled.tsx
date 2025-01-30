@@ -6,55 +6,42 @@ export const SkillsStyled = styled.div`
         justify-content: space-between;
 
         .elements {
+            position: relative;
             width: 100%;
 
-            .pseudo {
-                &::before {
-                    content: "";
-                    position: absolute;
-                    top: 620px;
-                    left: 580px;
-                    width: 60px;
-                    height: 60px;
-                    background: url('../../assets/img/dotsSmall.svg') no-repeat center center;
-                    background-size: cover;
-                    z-index: 1;
-                }
-
-                &::after {
-                    content: "";
-                    position: absolute;
-                    top: 640px;
-                    left: 360px;
-                    width: 50px;
-                    height: 50px;
-                    background: url('../../assets/img/Rectanglesmall.svg') no-repeat center center;
-                    background-size: cover;
-                    z-index: 1;
-                }
-            }
-
-            &::before {
-                content: "";
+            .dotsSmall {
                 position: absolute;
-                top: 700px;
-                left: 420px;
-                width: 120px;
-                height: 120px;
-                background: url('../../assets/img/doubleSquad.svg') no-repeat center center;
-                background-size: cover;
+                top: 110px;
+                left: 220px;
+                width: 60px;
+                height: 60px;
                 z-index: 1;
             }
-
-            &::after {
-                content: "";
+            
+            .rectangleSmall {
                 position: absolute;
-                top: 790px;
-                left: 620px;
+                top: 12px;
+                left: 320px;
+                width: 50px;
+                height: 50px;
+                z-index: 1;
+            }
+            
+            .doubleSquad {
+                position: absolute;
+                top: 90px;
+                left: 50px;
+                width: 120px;
+                height: 120px;
+                z-index: 1;
+            }
+            
+            .rectangleSmall2 {
+                position: absolute;
+                //top: 70px;
+                left: 10px;
                 width: 70px;
                 height: 70px;
-                background: url('../../assets/img/Rectanglesmall.svg') no-repeat center center;
-                background-size: cover;
                 z-index: 1;
             }
         }
