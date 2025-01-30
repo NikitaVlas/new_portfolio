@@ -1,6 +1,6 @@
 import {FooterStyled} from "../../../src/globalStyles/footer/footer.styled.tsx";
 import {Link} from "react-router-dom";
-import githubLogo from "../../../src/assets/img/Github.svg";
+import githubLogo from "../../../src/assets/Github.svg";
 
 const Footer = () => {
     return (
