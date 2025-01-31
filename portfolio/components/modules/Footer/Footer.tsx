@@ -4,11 +4,12 @@ import githubLogo from "../../../src/assets/Github.svg";
 import linkedinLogo from "../../../src/assets/Linkedin.svg";
 import emailLogo from "../../../src/assets/Email.svg";
 import telegramLogo from "../../../src/assets/Telegram.svg";
+import lineFooter from "../../../src/assets/LineFooter.svg";
 
 const Footer = () => {
     return (
         <FooterStyled>
-            <img src="../../../src/assets/img/LineFooter.svg" alt=""/>
+            <img src={lineFooter} alt=""/>
             <div className="footerContainer">
                 <div className="footerLeft">
                     <Link className="icon" to="/">Nikita</Link>

@@ -6,6 +6,10 @@ import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import {useLang} from "../../../../hooks/useLang.ts";
+import cardPortfolio from "../../../../src/assets/cardPortfolio.png";
+import cardCustomer from "../../../../src/assets/cardCustomer.png";
+import cardBlog from "../../../../src/assets/cardBlog.png";
+import cardNova from "../../../../src/assets/cardNova.png";
 
 type ProjectsProps = {
     span: string
@@ -33,22 +37,22 @@ const Projects = ({span, img}: ProjectsProps) => {
                 {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
                 {/* @ts-expect-error */}
                 <Slider {...settings}>
-                    <ProjectCart img={"../../public/img/cardPortfolio.png"}
+                    <ProjectCart img={cardPortfolio}
                                  tex={"React, Node.js"} title={"Portfolio"}
                                  description={"Get answers to your kahoot quiz"}
                                  to={"https://github.com/NikitaVlas/new_portfolio"}
                     />
-                    <ProjectCart img={"../../public/img/cardCustomer.png"}
+                    <ProjectCart img={cardCustomer}
                                  tex={"NEOS CMS, PHP, MariaDB"} title={"ProtectX"}
                                  description={"Get answers to your kahoot quiz"}
                                  to={"https://github.com/NikitaVlas/selfmade"}
                     />
-                    <ProjectCart img={"../../public/img/cardBlog.png"}
+                    <ProjectCart img={cardBlog}
                                  tex={"NEOS CMS, PHP, MariaDB"} title={"ProtectX"}
                                  description={"Get answers to your kahoot quiz"}
                                  to={"https://github.com/NikitaVlas/blogMERN"}
                     />
-                    <ProjectCart img={"../../public/img/cardNova.png"}
+                    <ProjectCart img={cardNova}
                                  tex={"NEOS CMS, PHP, MariaDB"} title={"Nova Academy"}
                                  description={"Get answers to your kahoot quiz"}
                                  to={"https://github.com/NikitaVlas/nova_academy"}
