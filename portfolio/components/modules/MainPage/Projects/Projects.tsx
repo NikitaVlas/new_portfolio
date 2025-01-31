@@ -8,7 +8,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import {useLang} from "../../../../hooks/useLang.ts";
 import cardPortfolio from "../../../../src/assets/cardPortfolio.png";
 import cardCustomer from "../../../../src/assets/cardCustomer.png";
-import cardBlog from "../../../../src/assets/cardBlog.png";
+import cardBlog from "../../../../src/assets/cardBLog.png";
 import cardNova from "../../../../src/assets/cardNova.png";
 
 type ProjectsProps = {
