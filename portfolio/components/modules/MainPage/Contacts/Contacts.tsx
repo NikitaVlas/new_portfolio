@@ -2,6 +2,10 @@ import BlockTitle from "../../../elements/BlockTitle/BlockTitle";
 import {ContactsStyled} from "../../../../src/globalStyles/contacts/contacts.styled.tsx";
 import {useLang} from "../../../../hooks/useLang.ts";
 import LinkButton from "../../../elements/LinkButton/LinkButton.tsx";
+import githubLogo from "../../../../src/assets/Github.svg";
+import linkedinLogo from "../../../../src/assets/Linkedin.svg";
+import emailLogo from "../../../../src/assets/Email.svg";
+import telegramLogo from "../../../../src/assets/Telegram.svg";
 
 type ContactsProps = {
     span: string
@@ -22,22 +26,22 @@ const Contacts = ({span, img}: ContactsProps) => {
                 <div className="contactsMessage">
                     <span>{translations[lang].contacts.message}</span>
                     <div className="contactMethod">
-                        <a href="https://github.com/NikitaVlas" target="_blank" rel="noopener noreferrer"><img src="../../../public/img/Github.svg"
+                        <a href="https://github.com/NikitaVlas" target="_blank" rel="noopener noreferrer"><img src={githubLogo}
                                                                      alt=""/></a>
                         <a href="https://github.com/NikitaVlas" target="_blank" rel="noopener noreferrer">NikitaVlas</a>
                     </div>
                     <div className="contactMethod">
                         <a href="https://www.linkedin.com/in/nikita-vlasov-13ba3b1ab/" target="_blank" rel="noopener noreferrer"><img
-                            src="../../../public/img/Linkedin.svg" alt=""/></a>
+                            src={linkedinLogo} alt=""/></a>
                         <a href="https://www.linkedin.com/in/nikita-vlasov-13ba3b1ab/" target="_blank" rel="noopener noreferrer">nikita-vlasov</a>
                     </div>
                     <div className="contactMethod">
-                        <a href={"mailto:nikistosov@gmail.com"}><img src="../../../public/img/Email.svg" alt=""/></a>
+                        <a href={"mailto:nikistosov@gmail.com"}><img src={emailLogo} alt=""/></a>
                         <a href={"mailto:nikistosov@gmail.com"}>nikistosov@gmail.com</a>
                     </div>
                     <div className="contactMethod">
                         <a href={"https://t.me/sibjpeg"} target="_blank" rel="noopener noreferrer"><img
-                            src="../../../public/img/Telegram.svg" alt=""/></a>
+                            src={telegramLogo} alt=""/></a>
                         <a href={"https://t.me/sibjpeg"} target="_blank" rel="noopener noreferrer">@sibjpeg</a>
                     </div>
                 </div>
