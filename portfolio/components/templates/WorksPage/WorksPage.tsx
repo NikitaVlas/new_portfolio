@@ -1,28 +1,33 @@
 import BlockTitle from "../../elements/BlockTitle/BlockTitle.tsx";
 import ProjectCart from "../../modules/MainPage/Projects/ProjectCart.tsx";
 import styled from "styled-components";
+import cardPortfolio from "../../../src/assets/cardPortfolio.png";
+import cardCustomer from "../../../src/assets/cardCustomer.png";
+import cardBlog from "../../../src/assets/cardBLog.png";
+import cardNova from "../../../src/assets/cardNova.png";
+
 
 const WorksPage = () => {
     return (
         <div>
             <BlockTitle text={"projects"} span={"/"} img={false}/>
             <ProjectCartContainer>
-                <ProjectCart img={"../../public/img/cardPortfolio.png"}
+                <ProjectCart img={cardPortfolio}
                              tex={"React, Node.js"} title={"ProtectX"}
                              description={"Get answers to your kahoot quiz"}
                              to={"https://github.com/NikitaVlas/new_portfolio"}
                 />
-                <ProjectCart img={"../../public/img/cardCustomer.png"}
+                <ProjectCart img={cardCustomer}
                              tex={"React, Node.js"} title={"ProtectX"}
                              description={"Get answers to your kahoot quiz"}
                              to={"https://github.com/NikitaVlas/selfmade"}
                 />
-                <ProjectCart img={"../../public/img/cardBlog.png"}
+                <ProjectCart img={cardBlog}
                              tex={"React, Node.js"} title={"ProtectX"}
                              description={"Get answers to your kahoot quiz"}
                              to={"https://github.com/NikitaVlas/blogMERN"}
                 />
-                <ProjectCart img={"../../public/img/cardNova.png"}
+                <ProjectCart img={cardNova}
                              tex={"React, Node.js"} title={"ProtectX"}
                              description={"Get answers to your kahoot quiz"}
                              to={"https://github.com/NikitaVlas/nova_academy"}
