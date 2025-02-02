@@ -7,6 +7,9 @@ import {AllowedLangs} from "../constants/lang.ts";
 import Button from "../components/elements/Button/Button.tsx";
 import {theme} from "../styles/Theme.styled.tsx";
 import {useCallback, useEffect, useState} from "react";
+import linevert from "./assets/Linevert.svg";
+import githubLogo from "./assets/Github.svg";
+import linkedinLogo from "./assets/Linkedin.svg";
 
 const App = () => {
     const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
@@ -36,9 +39,9 @@ const App = () => {
             {isDesktop ? (
             <ExternalContainer>
                 <ContactExternal>
-                    <img src="assets/img/Linevert.svg" alt=""/>
-                    <a href="https://github.com/NikitaVlas" target="_blank" rel="noopener noreferrer"><img src="assets/img/Github.svg" alt=""/></a>
-                    <a href="https://www.linkedin.com/in/nikita-vlasov-13ba3b1ab/" target="_blank" rel="noopener noreferrer"><img src="assets/img/Linkedin.svg" alt=""/></a>
+                    <img src={linevert} alt=""/>
+                    <a href="https://github.com/NikitaVlas" target="_blank" rel="noopener noreferrer"><img src={githubLogo} alt=""/></a>
+                    <a href="https://www.linkedin.com/in/nikita-vlasov-13ba3b1ab/" target="_blank" rel="noopener noreferrer"><img src={linkedinLogo} alt=""/></a>
                 </ContactExternal>
                 <ButtonExternal>
                     <Button onClick={handleSwitchLangToEn} title={"en"}/>
