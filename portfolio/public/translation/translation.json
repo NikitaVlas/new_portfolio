@@ -40,7 +40,20 @@
     },
     "project": {
       "projects": "projects",
-      "buttonView": "View all"
+      "buttonView": "View all",
+      "projectCartButton": "GitHub",
+      "cardTex": "JavaScript, React, TypeScript",
+      "cardTitle": "Portfolio",
+      "cardDescription": "Portfolio of Nikita Vlasov – here you can get to know me. Learn about the projects I have worked on, my programming experience, and more.",
+      "cardSelfMadeText": "JavaScript, React, TypeScript, Redux, PHP, NEOS FLOW, MariaDB, Docker",
+      "cardSelfMadeTitle": "Customer Dashboard",
+      "cardSelfMadeDescription": "An application designed for project managers. It allows for faster access to information about the company's current clients, as well as updating, adding, and filtering data.",
+      "cardBlogText": "JavaScript, React, TypeScript, Redux Toolkit, Axios, Express, Node.Js, MongoDB, Tailwind.CSS.",
+      "cardBlogTitle": "Blog",
+      "cardBlogDescription": "A blog built with a modern tech stack: MongoDB, Express, React, and Node.js.\nThe following functionality is implemented:\n\nAuthentication\nAdding a new user\nCreating a post\nRetrieving user posts\nRetrieving all posts\nDeleting a post\nEditing a post\nCreating a comment for a post\nRetrieving all comments for a post",
+      "cardNovaText": "JavaScript, React, TypeScript",
+      "cardNovaTitle": "Nova Academy",
+      "cardNovaDescription": "A website for a Brazilian Jiu-Jitsu school."
     }
   },
   "de":{
@@ -84,7 +97,20 @@
     },
     "project": {
       "projects": "projekte",
-      "buttonView": "Alle anzeigen"
+      "buttonView": "Alle anzeigen",
+      "projectCartButton": "GitHub",
+      "cardTex": "JavaScript, React, TypeScript",
+      "cardTitle": "Portfolio",
+      "cardDescription": "Portfolio von Nikita Vlasov – hier kannst du mich kennenlernen. Erfahre mehr über die Projekte, an denen ich gearbeitet habe, meine Programmiererfahrung und mehr.",
+      "cardSelfMadeText": "JavaScript, React, TypeScript, Redux, PHP, NEOS FLOW, MariaDB, Docker",
+      "cardSelfMadeTitle": "Kunden-Dashboard",
+      "cardSelfMadeDescription": "Eine Anwendung für Projektmanager. Sie ermöglicht einen schnelleren Zugriff auf Informationen über die aktuellen Kunden des Unternehmens sowie das Aktualisieren, Hinzufügen und Filtern von Daten.",
+      "cardBlogText": "JavaScript, React, TypeScript, Redux Toolkit, Axios, Express, Node.Js, MongoDB, Tailwind.CSS.",
+      "cardBlogTitle": "Blog",
+      "cardBlogDescription": "Ein Blog, der mit einem modernen Tech-Stack entwickelt wurde: MongoDB, Express, React und Node.js.\nFolgende Funktionen sind implementiert:\n\nAuthentifizierung\nHinzufügen eines neuen Benutzers\nErstellen eines Beitrags\nAbrufen der Benutzerbeiträge\nAbrufen aller Beiträge\nLöschen eines Beitrags\nBearbeiten eines Beitrags\nErstellen eines Kommentars zu einem Beitrag\nAbrufen aller Kommentare zu einem Beitrag",
+      "cardNovaText": "JavaScript, React, TypeScript",
+      "cardNovaTitle": "Nova Academy",
+      "cardNovaDescription": "Eine Website für eine Brazilian Jiu-Jitsu-Schule."
     }
   },
   "ru":{
@@ -128,7 +154,20 @@
     },
     "project": {
       "projects": "проекты",
-      "buttonView": "Посмотреть все"
+      "buttonView": "Посмотреть все",
+      "projectCartButton": "GitHub",
+      "cardTex": "JavaScript, React, TypeScript",
+      "cardTitle": "Портфолио",
+      "cardDescription": "Портфолио Никиты Власова, тут ты можешь познакомиться со мной. Какие проекты я делал, какой опты программирования и тд.",
+      "cardSelfMadeText": "JavaScript, React, TypeScript, Redux, PHP, NEOS FLOW, MariaDB, Docker",
+      "cardSelfMadeTitle": "Панель управления для клиентов",
+      "cardSelfMadeDescription": "Приложение ориентированное на проект менеджеров. С помощью которого можно быстрее получать информацию о действующих клиентах фирмы, обновлять, добавлять и фильтровать информацию.",
+      "cardBlogText": "JavaScript, React, TypeScript, Redux Toolkit, Axios, Express, Node.Js, MongoDB, Tailwind.CSS.",
+      "cardBlogTitle": "Блог",
+      "cardBlogDescription": "Блог, написанный на современном стеке технологий MongoDB, Express, React, Node. js. \nРеализован следебущий фенкионал:\n- авторизация\n- добавление нового пользователя\n- Создание поста\n- Получение постов пользователя\n-  Получение всех постов\n-  Удаление поста\n- Редактирование поста\n- Создания комментария к посту\n- Получение всех комментов к посту",
+      "cardNovaText": "JavaScript, React, TypeScript",
+      "cardNovaTitle": "Nova Academy",
+      "cardNovaDescription": "Веб сайт для школы по Бразильскому Джиу-Джитсу."
     }
   }
 }

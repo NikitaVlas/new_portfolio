@@ -38,23 +38,27 @@ const Projects = ({span, img}: ProjectsProps) => {
                 {/* @ts-expect-error */}
                 <Slider {...settings}>
                     <ProjectCart img={cardPortfolio}
-                                 tex={"React, Node.js"} title={"Portfolio"}
-                                 description={"Get answers to your kahoot quiz"}
+                                 tex={translations[lang].project.cardTex}
+                                 title={translations[lang].project.cardTitle}
+                                 description={translations[lang].project.cardDescription}
                                  to={"https://github.com/NikitaVlas/new_portfolio"}
                     />
                     <ProjectCart img={cardCustomer}
-                                 tex={"NEOS CMS, PHP, MariaDB"} title={"ProtectX"}
-                                 description={"Get answers to your kahoot quiz"}
+                                 tex={translations[lang].project.cardSelfMadeText}
+                                 title={translations[lang].project.cardSelfMadeTitle}
+                                 description={translations[lang].project.cardSelfMadeDescription}
                                  to={"https://github.com/NikitaVlas/selfmade"}
                     />
                     <ProjectCart img={cardBlog}
-                                 tex={"NEOS CMS, PHP, MariaDB"} title={"ProtectX"}
-                                 description={"Get answers to your kahoot quiz"}
+                                 tex={translations[lang].project.cardBlogText}
+                                 title={translations[lang].project.cardBlogTitle}
+                                 description={translations[lang].project.cardBlogDescription}
                                  to={"https://github.com/NikitaVlas/blogMERN"}
                     />
                     <ProjectCart img={cardNova}
-                                 tex={"NEOS CMS, PHP, MariaDB"} title={"Nova Academy"}
-                                 description={"Get answers to your kahoot quiz"}
+                                 tex={translations[lang].project.cardNovaText}
+                                 title={translations[lang].project.cardNovaTitle}
+                                 description={translations[lang].project.cardNovaDescription}
                                  to={"https://github.com/NikitaVlas/nova_academy"}
                     />
                 </Slider>

@@ -1,5 +1,6 @@
 import LinkButton from "../../../elements/LinkButton/LinkButton.tsx";
 import {ProjectCartStyled} from "../../../../src/globalStyles/projects/projectCart.styled.tsx";
+import {useLang} from "../../../../hooks/useLang.ts";
 
 type ProjectCartProps = {
     img?: string
@@ -10,6 +11,8 @@ type ProjectCartProps = {
 }
 
 const ProjectCart = ({img, tex, title, description, to}: ProjectCartProps) => {
+    const {lang, translations} = useLang()
+
     return (
         <ProjectCartStyled>
             <img src={img} alt=""/>
@@ -18,7 +21,7 @@ const ProjectCart = ({img, tex, title, description, to}: ProjectCartProps) => {
                 <h4>{title}</h4>
                 <p>{description}</p>
                 <div className="containerButton">
-                    <LinkButton title={"GitHub"} to={to}/>
+                    <LinkButton title={translations[lang].project.projectCartButton} to={to}/>
                 </div>
             </div>
         </ProjectCartStyled>
