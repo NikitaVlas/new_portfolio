@@ -5,31 +5,38 @@ import cardPortfolio from "../../../src/assets/cardPortfolio.png";
 import cardCustomer from "../../../src/assets/cardCustomer.png";
 import cardBlog from "../../../src/assets/cardBLog.png";
 import cardNova from "../../../src/assets/cardNova.png";
+import {useLang} from "../../../hooks/useLang.ts";
 
 
 const WorksPage = () => {
+    const {lang, translations} = useLang()
+
     return (
         <div>
             <BlockTitle text={"projects"} span={"/"} img={false}/>
             <ProjectCartContainer>
                 <ProjectCart img={cardPortfolio}
-                             tex={"React, Node.js"} title={"ProtectX"}
-                             description={"Get answers to your kahoot quiz"}
+                             tex={translations[lang].project.cardTex}
+                             title={translations[lang].project.cardTitle}
+                             description={translations[lang].project.cardDescription}
                              to={"https://github.com/NikitaVlas/new_portfolio"}
                 />
                 <ProjectCart img={cardCustomer}
-                             tex={"React, Node.js"} title={"ProtectX"}
-                             description={"Get answers to your kahoot quiz"}
+                             tex={translations[lang].project.cardSelfMadeText}
+                             title={translations[lang].project.cardSelfMadeTitle}
+                             description={translations[lang].project.cardSelfMadeDescription}
                              to={"https://github.com/NikitaVlas/selfmade"}
                 />
                 <ProjectCart img={cardBlog}
-                             tex={"React, Node.js"} title={"ProtectX"}
-                             description={"Get answers to your kahoot quiz"}
+                             tex={translations[lang].project.cardBlogText}
+                             title={translations[lang].project.cardBlogTitle}
+                             description={translations[lang].project.cardBlogDescription}
                              to={"https://github.com/NikitaVlas/blogMERN"}
                 />
                 <ProjectCart img={cardNova}
-                             tex={"React, Node.js"} title={"ProtectX"}
-                             description={"Get answers to your kahoot quiz"}
+                             tex={translations[lang].project.cardNovaText}
+                             title={translations[lang].project.cardNovaTitle}
+                             description={translations[lang].project.cardNovaDescription}
                              to={"https://github.com/NikitaVlas/nova_academy"}
                 />
             </ProjectCartContainer>
