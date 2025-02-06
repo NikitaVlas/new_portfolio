@@ -5,6 +5,7 @@ import rectangle from "../../../../src/assets/Rectangle.svg";
 import squad1 from "../../../../src/assets/squad1.svg";
 import doubleSquad from "../../../../src/assets/doubleSquad.svg";
 import {Link} from "react-router-dom";
+import DownloadButton from "../../../elements/Button/DownloadButton.tsx";
 
 const Hero = () => {
     const {lang, translations} = useLang()
@@ -16,6 +17,7 @@ const Hero = () => {
                 </h1>
                 <span>{translations[lang].hero.underTitle}</span>
                 <Link className="link__button" to="/pages/contacts"><span>{translations[lang].hero.button}</span></Link>
+                <DownloadButton/>
             </div>
             <div className="elements">
                 <img className="squad1"  src={squad1} alt=""/>
