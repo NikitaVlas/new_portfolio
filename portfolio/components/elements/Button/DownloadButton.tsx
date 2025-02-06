@@ -5,7 +5,7 @@ const DownloadButton = () => {
         const cvUrl = "/public/cv.pdf"; // Путь к файлу в папке public
         const link = document.createElement("a");
         link.href = cvUrl;
-        link.setAttribute("download", "CV_NikitaVLasov.pdf"); // Принудительное скачивание
+        link.setAttribute("download", "CV.pdf"); // Принудительное скачивание
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
