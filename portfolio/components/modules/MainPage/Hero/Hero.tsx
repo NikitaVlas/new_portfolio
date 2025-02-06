@@ -1,10 +1,10 @@
-import LinkButton from "../../../elements/LinkButton/LinkButton.tsx";
 import {HeroStyled} from "../../../../src/globalStyles/hero/hero.styled.tsx";
 import {useLang} from "../../../../hooks/useLang.ts";
 import photoHero from "../../../../src/assets/photoHero.png";
 import rectangle from "../../../../src/assets/Rectangle.svg";
 import squad1 from "../../../../src/assets/squad1.svg";
 import doubleSquad from "../../../../src/assets/doubleSquad.svg";
+import {Link} from "react-router-dom";
 
 const Hero = () => {
     const {lang, translations} = useLang()
@@ -15,7 +15,7 @@ const Hero = () => {
                 <h1>{translations[lang].hero.title1}<span>{translations[lang].hero.title2}</span>{translations[lang].hero.title3}
                 </h1>
                 <span>{translations[lang].hero.underTitle}</span>
-                <LinkButton title={translations[lang].hero.button} to={"/pages/contacts"}/>
+                <Link className="link__button" to="/pages/contacts"><span>{translations[lang].hero.button}</span></Link>
             </div>
             <div className="elements">
                 <img className="squad1"  src={squad1} alt=""/>

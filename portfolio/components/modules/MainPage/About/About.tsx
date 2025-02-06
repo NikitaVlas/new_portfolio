@@ -1,9 +1,8 @@
-
 import BlockTitle from "../../../elements/BlockTitle/BlockTitle";
-import LinkButton from "../../../elements/LinkButton/LinkButton.tsx";
 import {AboutStyled} from "../../../../src/globalStyles/about/about.staled.tsx";
 import {useLang} from "../../../../hooks/useLang.ts";
 import photoAbout from "../../../../src/assets/photoabout.png"
+import {Link} from "react-router-dom";
 
 type AboutProps = {
     button: boolean
@@ -20,7 +19,7 @@ const About = ({button, span, img}: AboutProps) => {
             <div className="aboutContainer">
                 <div className="aboutDescription">
                     <p>{translations[lang].about.description}</p>
-                    {button ? <LinkButton title={translations[lang].about.button} to={"/pages/about"}/> : ""}
+                    {button ? <Link className="link__button" to="/pages/about"><span>{translations[lang].about.button}</span></Link> : ""}
                 </div>
                 <div >
                     <img src={photoAbout} alt=""/>

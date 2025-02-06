@@ -1,11 +1,11 @@
 import BlockTitle from "../../../elements/BlockTitle/BlockTitle";
 import {ContactsStyled} from "../../../../src/globalStyles/contacts/contacts.styled.tsx";
 import {useLang} from "../../../../hooks/useLang.ts";
-import LinkButton from "../../../elements/LinkButton/LinkButton.tsx";
 import githubLogo from "../../../../src/assets/Github.svg";
 import linkedinLogo from "../../../../src/assets/Linkedin.svg";
 import emailLogo from "../../../../src/assets/Email.svg";
 import telegramLogo from "../../../../src/assets/Telegram.svg";
+import {Link} from "react-router-dom";
 
 type ContactsProps = {
     span: string
@@ -21,7 +21,7 @@ const Contacts = ({span, img}: ContactsProps) => {
             <div className="contactsContainer">
                 <div className="contactsDescription">
                     <p>{translations[lang].contacts.opportunities}</p>
-                    <LinkButton title={translations[lang].hero.button} to={"/pages/contacts"}/>
+                    <Link className="link__button" to={"/pages/contacts"}><span>{translations[lang].hero.button}</span></Link>
                 </div>
                 <div className="contactsMessage">
                     <span>{translations[lang].contacts.message}</span>

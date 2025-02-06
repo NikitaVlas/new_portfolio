@@ -1,7 +1,6 @@
 import BlockTitle from "../../../elements/BlockTitle/BlockTitle";
 import ProjectCart from "./ProjectCart.tsx";
 import {ProjectsStyled} from "../../../../src/globalStyles/projects/projects.styled.tsx";
-import LinkButton from "../../../elements/LinkButton/LinkButton.tsx";
 import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -10,6 +9,7 @@ import cardPortfolio from "../../../../src/assets/cardPortfolio.png";
 import cardCustomer from "../../../../src/assets/cardCustomer.png";
 import cardBlog from "../../../../src/assets/cardBLog.png";
 import cardNova from "../../../../src/assets/cardNova.png";
+import {Link} from "react-router-dom";
 
 type ProjectsProps = {
     span: string
@@ -31,7 +31,7 @@ const Projects = ({span, img}: ProjectsProps) => {
         <ProjectsStyled>
             <div className="projectsHead">
                 <BlockTitle text={translations[lang].project.projects} span={span} img={img}/>
-                <LinkButton title={translations[lang].project.buttonView} to="/pages/works"/>
+                <Link className="link__button" to="/pages/works"><span>{translations[lang].project.buttonView} {"\u2192"}</span></Link>
             </div>
             <div className="image-slider-container">
                 {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
