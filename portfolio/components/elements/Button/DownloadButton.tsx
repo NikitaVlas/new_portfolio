@@ -1,8 +1,6 @@
-// import cv from "../../../public/docks/CV.pdf"
-
 const DownloadButton = () => {
     const handleDownload = () => {
-        const cvUrl = "/public/cv.pdf"; // Путь к файлу в папке public
+        const cvUrl = "/cv.pdf"; // Путь к файлу в папке public
         const link = document.createElement("a");
         link.href = cvUrl;
         link.setAttribute("download", "CV.pdf"); // Принудительное скачивание
