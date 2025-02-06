@@ -16,8 +16,10 @@ const Hero = () => {
                 <h1>{translations[lang].hero.title1}<span>{translations[lang].hero.title2}</span>{translations[lang].hero.title3}
                 </h1>
                 <span>{translations[lang].hero.underTitle}</span>
-                <Link className="link__button" to="/pages/contacts"><span>{translations[lang].hero.button}</span></Link>
-                <DownloadButton/>
+                <div className="groupButton">
+                    <Link className="link__button" to="/pages/contacts"><span>{translations[lang].hero.button}</span></Link>
+                    <DownloadButton/>
+                </div>
             </div>
             <div className="elements">
                 <img className="squad1"  src={squad1} alt=""/>

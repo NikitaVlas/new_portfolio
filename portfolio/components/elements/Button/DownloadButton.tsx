@@ -1,3 +1,6 @@
+import styled from "styled-components";
+import {theme} from "../../../styles/Theme.styled.tsx";
+
 const DownloadButton = () => {
     const handleDownload = () => {
         const cvUrl = "/cv.pdf"; // Путь к файлу в папке public
@@ -10,13 +13,26 @@ const DownloadButton = () => {
     };
 
     return (
-        <button
+        <DownloadStyled
             onClick={handleDownload}
-            className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700"
         >
-            Скачать CV
-        </button>
+            Скачать CV {"\u2193"}
+        </DownloadStyled>
     );
 };
+
+const DownloadStyled = styled.button`
+    all: unset;
+    margin-top: 26px;
+    margin-left: 32px;
+    color: ${theme.colors.secondary};
+    transition: color 0.3s ease;
+    cursor: pointer;
+
+
+    &:hover {
+        color: ${theme.hoverColor.hover};
+    }
+`
 
 export default DownloadButton;

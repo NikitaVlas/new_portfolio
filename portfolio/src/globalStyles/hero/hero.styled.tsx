@@ -20,31 +20,36 @@ export const HeroStyled = styled.div`
     }
 
     .heroBlock {
-        .link__button {
-            margin-top: 24px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            max-width: 148px;
-            height: 39px;
-            border: 2px solid ${theme.hoverColor.noHover};
-            color: ${theme.colors.secondary};
+        .groupButton {
+            .link__button {
+                margin-top: 24px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                max-width: 148px;
+                height: 39px;
+                border: 2px solid ${theme.hoverColor.noHover};
+                color: ${theme.colors.secondary};
 
-            transition: border-color 0.3s ease;
-
-            span {
-                transition: color 0.3s ease;
-            }
-
-            &:hover {
-                border: 2px solid ${theme.hoverColor.hover};
+                transition: border-color 0.3s ease;
 
                 span {
-                    color: ${theme.colors.primary};
+                    transition: color 0.3s ease;
+                }
+
+                &:hover {
+                    border: 2px solid ${theme.hoverColor.hover};
+
+                    span {
+                        color: ${theme.colors.primary};
+                    }
                 }
             }
         }
     }
+    
+
+    
 
 
     .elements {
