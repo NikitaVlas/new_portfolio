@@ -31,8 +31,7 @@ const DownloadStyled = styled.button`
     color: ${theme.colors.secondary};
     transition: color 0.3s ease;
     cursor: pointer;
-
-
+    
     &:hover {
         color: ${theme.hoverColor.hover};
     }

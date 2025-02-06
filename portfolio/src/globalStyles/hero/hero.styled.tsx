@@ -47,10 +47,6 @@ export const HeroStyled = styled.div`
             }
         }
     }
-    
-
-    
-
 
     .elements {
         position: relative;
