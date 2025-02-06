@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import {theme} from "../../../styles/Theme.styled.tsx";
-
+import line from "../../../src/assets/Line.svg";
 
 type BlockTitleProps = {
     text: string
@@ -11,7 +11,7 @@ const BlockTitle = ({text, span, img}: BlockTitleProps) => {
     return (
         <BlockTitleStyle>
             <h3><span>{span}</span>{text}</h3>
-            {img ? <img src="../../../src/assets/img/Line.svg" alt=""/> : ""}
+            {img ? <img src={line} alt=""/> : ""}
         </BlockTitleStyle>
     );
 };
