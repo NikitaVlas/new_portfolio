@@ -12,7 +12,8 @@
       "title3": "developer",
       "underTitle": "I crafts responsive websites where technologies meet creativity",
       "button": "Contact me!",
-      "currently": "Currently working on Portfolio"
+      "currently": "Currently working on Portfolio",
+      "download": "Download CV"
     },
     "skills": {
       "skills": "skills",
@@ -69,7 +70,8 @@
       "title3": "",
       "underTitle": "Ich erstelle responsive Websites, bei denen Technologie auf Kreativität trifft",
       "button": "Schreib mir!",
-      "currently": "Derzeit arbeite ich an Portfolio"
+      "currently": "Derzeit arbeite ich an Portfolio",
+      "download": "Herunterladen CV"
     },
     "skills": {
       "skills": "fähigkeiten",
@@ -126,7 +128,8 @@
       "title3": "разработчик",
       "underTitle": "Я создаю адаптивные веб-сайты, в которых технологии сочетаются с креативностью.",
       "button": "Напиши мне!",
-      "currently": "В настоящее время работаю над портфолио"
+      "currently": "В настоящее время работаю над портфолио",
+      "download": "Скачать CV"
     },
     "skills": {
       "skills": "навыки",

@@ -1,7 +1,10 @@
 import styled from "styled-components";
 import {theme} from "../../../styles/Theme.styled.tsx";
+import {useLang} from "../../../hooks/useLang.ts";
 
 const DownloadButton = () => {
+    const {lang, translations} = useLang()
+
     const handleDownload = () => {
         const cvUrl = "/cv.pdf"; // Путь к файлу в папке public
         const link = document.createElement("a");
@@ -16,7 +19,7 @@ const DownloadButton = () => {
         <DownloadStyled
             onClick={handleDownload}
         >
-            Скачать CV {"\u2193"}
+            {translations[lang].hero.download} {"\u2193"}
         </DownloadStyled>
     );
 };
