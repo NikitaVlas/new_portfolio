@@ -2,7 +2,7 @@
 
 const DownloadButton = () => {
     const handleDownload = () => {
-        const cvUrl = "../../../public/docks/CV.pdf"; // Путь к файлу в папке public
+        const cvUrl = "../../../public/cv.pdf"; // Путь к файлу в папке public
         const link = document.createElement("a");
         link.href = cvUrl;
         link.download = "CV_NikitaVlasov.pdf"; // Имя файла при скачивании
