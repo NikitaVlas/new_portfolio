@@ -55,7 +55,7 @@ const MyFunFactsStyled = styled.div`
             .rectangleSmall {
                 position: absolute;
                 top: 1200px;
-                left: 1120px;
+                left: 1310px;
                 width: 50px;
                 height: 50px;
                 z-index: 1;
@@ -73,7 +73,7 @@ const MyFunFactsStyled = styled.div`
             .rectangleSmall2 {
                 position: absolute;
                 top: 990px;
-                left: 1090px;
+                left: 1310px;
                 width: 70px;
                 height: 70px;
                 z-index: 1;
