@@ -5,18 +5,22 @@ import dotsSmall from "../../../../src/assets/dotsSmall.svg";
 import rectangleSmall from "../../../../src/assets/Rectanglesmall.svg";
 import doubleSquad from "../../../../src/assets/doubleSquad.svg";
 import rectangleSmall2 from "../../../../src/assets/Rectanglesmall.svg";
+import {useLang} from "../../../../hooks/useLang.ts";
 
 const MyFunFacts = () => {
+    const {lang, translations} = useLang()
+
     return (
         <MyFunFactsStyled>
             <BlockTitle text={"my-fun-facts"} span={"#"} img={false}/>
             <div className="containerMyFunFacts">
                 <div>
-                    <Facts text={"I was in Russia, Germany, Italy, Spain, Belgium, Netherlands and France"}/>
-                    <Facts text={"I like pizza and pelmeni"}/>
-                    <Facts text={"I was in Russia, Germany, Italy, Spain, Belgium, Netherlands and France"}/>
-                    <Facts text={"I was in Russia, Germany, Italy, Spain, Belgium, Netherlands and France"}/>
-                    <Facts text={"I was in Russia, Germany, Italy, Spain, Belgium, Netherlands and France"}/>
+                    <Facts text={translations[lang].myFunFacts.firstFact}/>
+                    <Facts text={translations[lang].myFunFacts.secondFact}/>
+                    <Facts text={translations[lang].myFunFacts.thirdFact}/>
+                    <Facts text={translations[lang].myFunFacts.fourthFact}/>
+                    <Facts text={translations[lang].myFunFacts.fifthFact}/>
+                    <Facts text={translations[lang].myFunFacts.sixthFact}/>
                 </div>
                 <div className="elements">
                     <img className="dotsSmall" src={dotsSmall} alt=""/>
@@ -42,7 +46,7 @@ const MyFunFactsStyled = styled.div`
             .dotsSmall {
                 position: absolute;
                 top: 900px;
-                left: 1080px;
+                left: 1280px;
                 width: 60px;
                 height: 60px;
                 z-index: 1;
@@ -50,8 +54,8 @@ const MyFunFactsStyled = styled.div`
             
             .rectangleSmall {
                 position: absolute;
-                top: 1100px;
-                left: 980px;
+                top: 1200px;
+                left: 1120px;
                 width: 50px;
                 height: 50px;
                 z-index: 1;
@@ -59,7 +63,7 @@ const MyFunFactsStyled = styled.div`
 
             .doubleSquad {
                 position: absolute;
-                top: 1000px;
+                top: 1050px;
                 left: 1180px;
                 width: 120px;
                 height: 120px;
@@ -69,7 +73,7 @@ const MyFunFactsStyled = styled.div`
             .rectangleSmall2 {
                 position: absolute;
                 top: 990px;
-                left: 1020px;
+                left: 1090px;
                 width: 70px;
                 height: 70px;
                 z-index: 1;

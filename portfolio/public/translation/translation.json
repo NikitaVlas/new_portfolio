@@ -55,6 +55,14 @@
       "cardNovaText": "JavaScript, React, TypeScript",
       "cardNovaTitle": "Nova Academy",
       "cardNovaDescription": "A website for a Brazilian Jiu-Jitsu school."
+    },
+    "myFunFacts": {
+      "firstFact": "I was in Russia, Germany, Italy, Spain, Belgium, Netherlands, France and Portugal",
+      "secondFact": "I like pizza and pelmeni",
+      "thirdFact": "I am not a Russian spy",
+      "fourthFact": "When I was five years old I shot a machine gun for the first time in my life",
+      "fifthFact": "I have been doing Brazilian Jiu Jitsu for about six years",
+      "sixthFact": "I worked as a police officer and have a law degree"
     }
   },
   "de":{
@@ -113,6 +121,14 @@
       "cardNovaText": "JavaScript, React, TypeScript",
       "cardNovaTitle": "Nova Academy",
       "cardNovaDescription": "Eine Website für eine Brazilian Jiu-Jitsu-Schule."
+    },
+    "myFunFacts": {
+      "firstFact": "Ich war in Russland, Deutschland, Italien, Spanien, Belgien, den Niederlanden, Frankreich und Portugal",
+      "secondFact": "Ich mag Pizza und Pelmeni",
+      "thirdFact": "Ich bin kein russischer Spion",
+      "fourthFact": "Als ich fünf Jahre alt war, habe ich zum ersten Mal in meinem Leben mit einem Maschinengewehr geschossen",
+      "fifthFact": "Ich mache seit ungefähr sechs Jahren brasilianisches Jiu Jitsu",
+      "sixthFact": "Ich habe als Polizist gearbeitet und habe einen Abschluss in Rechtswissenschaften"
     }
   },
   "ru":{
@@ -171,6 +187,14 @@
       "cardNovaText": "JavaScript, React, TypeScript",
       "cardNovaTitle": "Nova Academy",
       "cardNovaDescription": "Веб сайт для школы по Бразильскому Джиу-Джитсу."
+    },
+    "myFunFacts": {
+      "firstFact": "Я был в России, Германии, Италии, Испании, Бельгии, Нидерландах, Франции и Португалии",
+      "secondFact": "Я люблю пиццу и пельмени",
+      "thirdFact": "Я не русский шпион",
+      "fourthFact": "Когда мне было пять лет, я впервые в жизни стрелял из пулемета",
+      "fifthFact": "Около 6 лет занимаю Бразильским Джиу-Джитсу",
+      "sixthFact": "Я работал полицеским и имею степень бакалавра юриспруденции"
     }
   }
 }
