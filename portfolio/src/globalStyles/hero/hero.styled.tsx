@@ -21,7 +21,10 @@ export const HeroStyled = styled.div`
 
     .heroBlock {
         .groupButton {
+            display: flex;
+        }
             .link__button {
+                padding: 0 20px 0 20px;
                 margin-top: 24px;
                 display: flex;
                 justify-content: center;
