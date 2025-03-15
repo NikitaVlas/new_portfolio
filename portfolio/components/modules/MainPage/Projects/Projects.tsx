@@ -5,10 +5,10 @@ import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import {useLang} from "../../../../hooks/useLang.ts";
-import cardPortfolio from "../../../../src/assets/cardPortfolio.png";
-import cardCustomer from "../../../../src/assets/cardCustomer.png";
-import cardBlog from "../../../../src/assets/cardBLog.png";
-import cardNova from "../../../../src/assets/cardNova.png";
+import cardPortfolio from "@/assets/cardPortfolio.png";
+import cardCustomer from "@/assets/cardCustomer.png";
+import cardBlog from "@/assets/cardBLog.png";
+import cardNova from "@/assets/cardNova.png";
 import {Link} from "react-router-dom";
 
 type ProjectsProps = {

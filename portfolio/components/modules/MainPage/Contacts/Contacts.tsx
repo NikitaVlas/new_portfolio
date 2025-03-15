@@ -1,10 +1,10 @@
 import BlockTitle from "../../../elements/BlockTitle/BlockTitle";
 import {ContactsStyled} from "../../../../src/globalStyles/contacts/contacts.styled.tsx";
 import {useLang} from "../../../../hooks/useLang.ts";
-import githubLogo from "../../../../src/assets/Github.svg";
-import linkedinLogo from "../../../../src/assets/Linkedin.svg";
-import emailLogo from "../../../../src/assets/Email.svg";
-import telegramLogo from "../../../../src/assets/Telegram.svg";
+import githubLogo from "@/assets/Github.svg";
+import linkedinLogo from "@/assets/Linkedin.svg";
+import emailLogo from "@/assets/Email.svg";
+import telegramLogo from "@/assets/Telegram.svg";
 import {Link} from "react-router-dom";
 
 type ContactsProps = {

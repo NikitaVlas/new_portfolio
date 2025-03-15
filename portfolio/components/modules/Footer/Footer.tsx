@@ -1,10 +1,10 @@
 import {FooterStyled} from "../../../src/globalStyles/footer/footer.styled.tsx";
 import {Link} from "react-router-dom";
-import githubLogo from "../../../src/assets/Github.svg";
-import linkedinLogo from "../../../src/assets/Linkedin.svg";
-import emailLogo from "../../../src/assets/Email.svg";
-import telegramLogo from "../../../src/assets/Telegram.svg";
-import lineFooter from "../../../src/assets/LineFooter.svg";
+import githubLogo from "@/assets/Github.svg";
+import linkedinLogo from "@/assets/Linkedin.svg";
+import emailLogo from "@/assets/Email.svg";
+import telegramLogo from "@/assets/Telegram.svg";
+import lineFooter from "@/assets/LineFooter.svg";
 
 const Footer = () => {
     return (

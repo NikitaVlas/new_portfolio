@@ -1,9 +1,9 @@
 import {HeroStyled} from "../../../../src/globalStyles/hero/hero.styled.tsx";
 import {useLang} from "../../../../hooks/useLang.ts";
-import photoHero from "../../../../src/assets/photoHero.png";
-import rectangle from "../../../../src/assets/Rectangle.svg";
-import squad1 from "../../../../src/assets/squad1.svg";
-import doubleSquad from "../../../../src/assets/doubleSquad.svg";
+import photoHero from "@/assets/photoHero.png";
+import rectangle from "@/assets/Rectangle.svg";
+import squad1 from "@/assets/squad1.svg";
+import doubleSquad from "@/assets/doubleSquad.svg";
 import {Link} from "react-router-dom";
 import DownloadButton from "../../../elements/Button/DownloadButton.tsx";
 

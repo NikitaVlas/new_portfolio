@@ -1,7 +1,7 @@
 import BlockTitle from "../../../elements/BlockTitle/BlockTitle";
 import {AboutStyled} from "../../../../src/globalStyles/about/about.staled.tsx";
 import {useLang} from "../../../../hooks/useLang.ts";
-import photoAbout from "../../../../src/assets/photoabout.png"
+import photoAbout from "@/assets/photoabout.png"
 import {Link} from "react-router-dom";
 
 type AboutProps = {

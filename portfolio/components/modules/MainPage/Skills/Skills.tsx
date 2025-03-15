@@ -2,10 +2,10 @@ import BlockTitle from "../../../elements/BlockTitle/BlockTitle";
 import Skill from "./Skill.tsx";
 import {SkillsStyled} from "../../../../src/globalStyles/skills/skills.styled.tsx";
 import {useLang} from "../../../../hooks/useLang.ts";
-import dotsSmall from "../../../../src/assets/dotsSmall.svg";
-import doubleSquad from "../../../../src/assets/doubleSquad.svg";
-import rectangleSmall from "../../../../src/assets/Rectanglesmall.svg";
-import rectangleSmall2 from "../../../../src/assets/Rectanglesmall.svg";
+import dotsSmall from "@/assets/dotsSmall.svg";
+import doubleSquad from "@/assets/doubleSquad.svg";
+import rectangleSmall from "@/assets/Rectanglesmall.svg";
+import rectangleSmall2 from "@/assets/Rectanglesmall.svg";
 
 type SkillsProps = {
     block: boolean

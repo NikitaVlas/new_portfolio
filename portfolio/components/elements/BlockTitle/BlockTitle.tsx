@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import {theme} from "../../../styles/Theme.styled.tsx";
-import line from "../../../src/assets/Line.svg";
+import line from "@/assets/Line.svg";
 
 type BlockTitleProps = {
     text: string
